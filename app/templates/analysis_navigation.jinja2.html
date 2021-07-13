@@ -1,0 +1,15 @@
+<div class="saNavigation">
+    {% set saNavigation_bar = [
+            ('/analysis/priceChange', 'price_change', 'Price Change'), 
+            ('/analysis/pricePrediction', 'price_prediction', 'Price Prediction'), 
+            ('/analysis/stockRelationship', 'stock_relationship', 'Stock Relationships')
+        ] -%}
+    
+    {% set saActive_page = saActive_page|default('price_change') -%}
+    <ul>
+        {% for href, class, caption in saNavigation_bar %}
+            <li{% if id == saActive_page %} class="active"{% endif%}><a href="{{ href|e }}">{{ caption|e }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
