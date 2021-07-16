@@ -54,9 +54,9 @@ def lstm_model_load ():
 	
 	#############################
 	# Making predictions on data
-	predicted_Price = lstm_model.predict(last10prices)
-	predicted_Price = DataScaler.inverse_transform(predicted_Price)
+	predicted_Price 	= lstm_model.predict(last10prices)
+	predicted_Price 	= DataScaler.inverse_transform(predicted_Price)
 	
 	print(predicted_Price)
 						
-	return predicted_Price[-1][-1]
+	return predicted_Price[-1][-1] #Return the predicted price

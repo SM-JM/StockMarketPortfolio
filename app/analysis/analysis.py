@@ -1,6 +1,7 @@
-from flask 		import Blueprint, render_template
-from .modelling	import obtainSinglePrediction
-from .lstm_test	import lstm_model
+from flask 			import Blueprint, render_template
+from .modelling		import obtainSinglePrediction
+from .lstm_test		import lstm_model
+from .create_models import create_models
 
 from .lstm_model_load	import lstm_model_load
 
@@ -25,7 +26,11 @@ def pricePrediction():
 
 	#obtainSinglePrediction("CCC")
 	#lstm_model()
-	pPrediction = lstm_model_load()
+	#pPrediction = lstm_model_load()
+	
+	create_models()
+	
+	pPrediction = 0
     
 	return render_template(
         "pricePrediction.jinja2.html",hPrediction=pPrediction
