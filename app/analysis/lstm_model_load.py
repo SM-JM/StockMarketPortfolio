@@ -1,5 +1,23 @@
-def lstm_model_load ():
+import os
+import glob
+
+def getFullPath( modulePath, subModulePath):
+	return os.path.join( os.getcwd(),"app", modulePath, subModulePath)
+
+def getCreatedModelSymbols():
+	
+	dirPath 		= getFullPath( 	modulePath	  = "analysis",
+									subModulePath = "models"
+					)
+	
+	modelFilenames 	= \
+		[os.path.basename(f) for f in glob.glob(os.path.join(dirPath,"*.h5"))]
+	
+	return [s.split("_")[0] for s in modelFilenames]
+
+def lstm_model_load (dir_path):
 	import 	os
+	import 	glob
 	import 	tensorflow 	as 		tf
 	from 	tensorflow 	import 	keras
 	import 	pandas		as 		pd
@@ -7,15 +25,11 @@ def lstm_model_load ():
 	
 
 	##### Load models
-	lstm_model 			= tf.keras.models.load_model(
-								os.path.join('./app/analysis/models','ccc_lstm_model.h5')
-						)
 	multi_lstm_model 	= tf.keras.models.load_model(
-								os.path.join('./app/analysis/models','ccc_multi_lstm_model.h5')
+								os.path.join(dir_path,'models','ccc_multi_lstm_model.h5')
 						)
 	
 	##### Obtain summary of models
-	lstm_model.summary()
 	multi_lstm_model.summary()
 	
 	

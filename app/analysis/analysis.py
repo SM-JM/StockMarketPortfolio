@@ -3,7 +3,7 @@ from .modelling		import obtainSinglePrediction
 from .lstm_test		import lstm_model
 from .create_models import create_models
 
-from .lstm_model_load	import lstm_model_load
+from .lstm_model_load	import *
 
 # Blueprint Configuration
 analysis_bp = Blueprint(
@@ -28,12 +28,16 @@ def pricePrediction():
 	#lstm_model()
 	#pPrediction = lstm_model_load()
 	
-	create_models()
+	pCreatedModelSymbols =  sorted(getCreatedModelSymbols())
+	
+	#create_models()
 	
 	pPrediction = 0
     
 	return render_template(
-        "pricePrediction.jinja2.html",hPrediction=pPrediction
+        "pricePrediction.jinja2.html",
+		hPrediction=pPrediction, 
+		hSymbols=pCreatedModelSymbols
     )
     
 @analysis_bp.route("/stockRelationship", methods=["GET"])

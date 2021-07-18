@@ -18,11 +18,9 @@
     
     <label for="symbol">Select a stock symbol</label>
     <select name="symbol" id="entity">
-        <option value="CCC">Carib Cement Company (CCC)</option>
-        <option value="GK">Grace Kennedy (GK)</option>
-        <option value="NCB">National Commercial Bank (NCB)</option>
-        <option value="JMMB">Jamaica Money Market Brokers (JMMB)</option>
-        <option value="SGJ">Sagicor Group Jamaica (SGJ)</option>
+		{% for s in hSymbols %}
+			<option value="{{ s }}">{{ s }}</option>
+		{% endfor %}
     </select>
     
     <br>
