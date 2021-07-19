@@ -1,5 +1,6 @@
 import os
 import glob
+import pandas as pd
 
 def getFullPath( modulePath, subModulePath):
 	return os.path.join( os.getcwd(),"app", modulePath, subModulePath)
@@ -14,6 +15,27 @@ def getCreatedModelSymbols():
 		[os.path.basename(f) for f in glob.glob(os.path.join(dirPath,"*.h5"))]
 	
 	return [s.split("_")[0] for s in modelFilenames]
+
+def getCreatedModelSymbolsNames():
+	
+	dirPath 		= getFullPath( 	modulePath	  = "analysis",
+									subModulePath = "historical_data"
+					)
+	
+	symbolList 		= getCreatedModelSymbols()
+	
+	df 				= pd.read_csv(	os.path.join(dirPath,"listed-companies.csv"),
+									usecols=["Name", "Instrument_Code"] 
+					)
+					
+	mDict 			= df.set_index("Instrument_Code").T.to_dict("list")
+	
+	# Create new dictionary based on created models
+	d 				= {s: mDict[s][0] for s in symbolList }
+	
+	# Sort the list
+	return { key:d[key] for key in sorted(d.keys())}
+
 
 def lstm_model_load (dir_path):
 	import 	os

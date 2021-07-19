@@ -28,7 +28,9 @@ def pricePrediction():
 	#lstm_model()
 	#pPrediction = lstm_model_load()
 	
-	pCreatedModelSymbols =  sorted(getCreatedModelSymbols())
+	pCreatedModelSymbols =  getCreatedModelSymbolsNames()
+	
+	print(pCreatedModelSymbols)
 	
 	#create_models()
 	

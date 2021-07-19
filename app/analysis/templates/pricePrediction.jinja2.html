@@ -18,8 +18,8 @@
     
     <label for="symbol">Select a stock symbol</label>
     <select name="symbol" id="entity">
-		{% for s in hSymbols %}
-			<option value="{{ s }}">{{ s }}</option>
+		{% for key, value in hSymbols.items() %}
+			<option value="{{ key }}">{{ value }} ({{ key }})</option>
 		{% endfor %}
     </select>
     
