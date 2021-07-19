@@ -1,4 +1,4 @@
-from flask 			import Blueprint, render_template
+from flask 			import Blueprint, render_template, request
 from .modelling		import obtainSinglePrediction
 from .lstm_test		import lstm_model
 from .create_models import create_models
@@ -28,9 +28,7 @@ def pricePrediction():
 	#lstm_model()
 	#pPrediction = lstm_model_load()
 	
-	pCreatedModelSymbols =  getCreatedModelSymbolsNames()
-	
-	print(pCreatedModelSymbols)
+	pCreatedModelNames =  getCreatedModelSymbolsNames()
 	
 	#create_models()
 	
@@ -39,9 +37,25 @@ def pricePrediction():
 	return render_template(
         "pricePrediction.jinja2.html",
 		hPrediction=pPrediction, 
-		hSymbols=pCreatedModelSymbols
+		hSymbols=pCreatedModelNames
     )
-    
+	
+@analysis_bp.route("/pricePredictionSubmit", methods=["GET"])
+def pricePredictionSubmit():
+	
+	symbol 				= request.args.get("symbol")
+	
+	pCreatedModelNames 	= getCreatedModelSymbolsNames()
+	
+	pPrediction 		= lstm_model_load(symbol)
+	
+	return render_template(
+        "pricePrediction.jinja2.html",
+		hPrediction=pPrediction, 
+		hSymbols=pCreatedModelNames,
+		hPredictedSymbol=symbol
+	)
+	
 @analysis_bp.route("/stockRelationship", methods=["GET"])
 def stockRelationship():
 

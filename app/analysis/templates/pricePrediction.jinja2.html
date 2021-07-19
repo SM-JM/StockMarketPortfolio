@@ -6,7 +6,7 @@
     <h2>Stock Price Prediction</h2>
     <p>Select an exchange and entity,</p>
     
-<form action="/predict">
+<form action={{url_for('analysis_bp.pricePredictionSubmit')}} method="GET">
     
      <label for="jse-main">Main</label>
      <input type="radio" id="jse-main" name="jse" value="main">
@@ -25,7 +25,7 @@
     
     <br>
 
-    <p>Predicated Price: <em>{{hPrediction}}</em></p>
+    <p>Predicated Price for ({{hPredictedSymbol}}) on Jan 4, 2021 is: <em>{{hPrediction}}</em></p>
 
 <input type="submit" value="Submit">
 </form>
