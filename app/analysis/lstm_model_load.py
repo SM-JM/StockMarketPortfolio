@@ -8,13 +8,12 @@ def getFullPath( modulePath, subModulePath):
 def getCreatedModelSymbols():
 	
 	dirPath 		= getFullPath( 	modulePath	  = "analysis",
-									subModulePath = "models"
+									subModulePath = "models/multivariate_price_data_only"
 					)
 	
 	modelFilenames 	= \
 		[os.path.basename(f) for f in glob.glob(os.path.join(dirPath,"*.h5"))]
-	
-	return [s.split("_")[0] for s in modelFilenames]
+	return [s.split("_")[1] for s in modelFilenames]
 
 def getCreatedModelSymbolsNames():
 	

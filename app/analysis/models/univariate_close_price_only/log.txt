@@ -1,0 +1,37 @@
+SJ|2021-07-16|Total Time Taken: 10 minutes.
+SJ|2021-07-16|Total Time Taken: 11 minutes.
+SJ|2021-07-16|Total Time Taken: 10 minutes.
+SJ|2021-07-16 00:00:00|Total Time Taken: 10 minutes.
+SJ|2021-07-16 00:00:00|Total Time Taken: 10 minutes.
+SGJ|2021-07-16 00:00:00|Total Time Taken: 10 minutes.
+GK|2021-07-16 00:00:00|Total Time Taken: 10 minutes.
+JMMBGL|2021-07-16 00:00:00|Total Time Taken: 10 minutes.
+JBG|2021-07-16 00:00:00|Total Time Taken: 10 minutes.
+LASD|2021-07-16 00:00:00|Total Time Taken: 10 minutes.
+CAR|2021-07-16 00:00:00|Total Time Taken: 10 minutes.
+LASM|2021-07-16 00:00:00|Total Time Taken: 7 minutes.
+SVL|2021-07-16 00:00:00|Total Time Taken: 7 minutes.
+CCC|2021-07-16 00:00:00|Total Time Taken: 7 minutes.
+LASF|2021-07-16 00:00:00|Total Time Taken: 10 minutes.
+PJAM|2021-07-16 00:00:00|Total Time Taken: 10 minutes.
+JP|2021-07-16 00:00:00|Total Time Taken: 9 minutes.
+JSE|2021-07-16 00:00:00|Total Time Taken: 9 minutes.
+KW|2021-07-16 00:00:00|Total Time Taken: 9 minutes.
+XFUND|2021-07-16 00:00:00|Total Time Taken: 9 minutes.
+RJR|2021-07-16 00:00:00|Total Time Taken: 6 minutes.
+HONBUN|2021-07-16 00:00:00|Total Time Taken: 9 minutes.
+CPJ|2021-07-16 00:00:00|Total Time Taken: 9 minutes.
+MIL|2021-07-16 00:00:00|Total Time Taken: 6 minutes.
+PROVEN|2021-07-16 00:00:00|Total Time Taken: 9 minutes.
+JAMT|2021-07-16 00:00:00|Total Time Taken: 9 minutes.
+JETCON|2021-07-16 00:00:00|Total Time Taken: 8 minutes.
+BRG|2021-07-16 00:00:00|Total Time Taken: 8 minutes.
+SEP|2021-07-16 00:00:00|Total Time Taken: 8 minutes.
+AMG|2021-07-16 00:00:00|Total Time Taken: 8 minutes.
+GENAC|2021-07-16 00:00:00|Total Time Taken: 5 minutes.
+NCBFG|2021-07-16 00:00:00|Total Time Taken: 5 minutes.
+KREMI|2021-07-16 00:00:00|Total Time Taken: 7 minutes.
+1834|2021-07-16 00:00:00|Total Time Taken: 5 minutes.
+BIL|2021-07-16 00:00:00|Total Time Taken: 8 minutes.
+KEX|2021-07-16 00:00:00|Total Time Taken: 8 minutes.
+PULS|2021-07-16 00:00:00|Total Time Taken: 7 minutes.

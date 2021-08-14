@@ -1,7 +1,7 @@
 import 	os
 import 	pandas		as 		pd
 import	numpy		as		np	
-from .create_lstm_model import *				
+from .create_lstm_model_multi_variate import *				
 
 def create_models ():
 	
@@ -32,15 +32,41 @@ def create_models ():
 	criteria_forInScope	= StockData_bySymbol['Last_Traded'] >= minDaysStockTraded
 	inScopeStocks 		= StockData_bySymbol.loc[criteria_forInScope,"Symbol"]
 	
+
+	# List of features to cycle through
+	feature_names = ['Today_High', 
+		'Today_Low', 
+		'Close_Price', 
+		'Volume_non_block', 
+		"no_days_not_traded_since_last_traded", 
+		"sentiment",
+		"is_regarding_financial_report", 
+		"is_sold_pur_shares"
+	   ]
+			   
+	feature_list = [
+				#["Close_Price", "sentiment"],
+				#feature_names,
+				["Close_Price", "Volume_non_block","Today_High","Today_Low", "sentiment"]
+	]
+	
 	# Loop, run then save models to file
 	
-	for symbol in inScopeStocks:
-		criteria_Model		= raw_df['Symbol'] == symbol
-		
-		create_lstm_model(StockData				= raw_df.loc[criteria_Model,["Date","Close_Price"]], 
-						  symbol_str			= symbol, 
-						  pNoFuturePredictions 	= 5
-		)
+	sStocks = inScopeStocks[21:]
 	
+	for symbol in sStocks:
+		s_df 	= pd.read_csv(	os.path.join('./app/analysis/historical_data/dataset',
+										'prices_sentiment_'+symbol+'.csv'),
+										infer_datetime_format=True, 
+										sep=','
+				)
+		for f in feature_list:
+			for e in [25]:
+				create_LSTM_mv_model(StockData			= s_df,
+								  symbol_str			= symbol,
+								  features				= f,
+								  epochs				= e
+				)
+		
 	return
 	

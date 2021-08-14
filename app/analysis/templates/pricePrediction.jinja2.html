@@ -2,33 +2,70 @@
 {% set saActive_page = "pricePrediction" %}
 
 {% block sub_content %}
+  <style>
+a[data-tooltip]:link, a[data-tooltip]:visited {
+  position: relative;
+  text-decoration: none;
+  border-bottom: solid 1px;
+}
+
+a[data-tooltip]:before {
+  content: "";
+  position: absolute;
+  border-top: 1em solid #0090ff;
+  border-left: 1.5em solid transparent;
+  border-right: 1.5em solid transparent;
+  display: none;
+  top: -1em;
+}
+
+a[data-tooltip]:after {
+  content: attr(data-tooltip);
+  position: absolute;
+  color: white;
+  top: -2.5em;
+  left: -1em;
+  background: #0090ff;
+  padding: .25em .75em;
+  border-radius: .5em;
+  white-space: nowrap;
+  display: none;
+}
+
+a[data-tooltip]:hover:before, a[data-tooltip]:hover:after {
+  display: inline;
+}
+  </style>
   <div class="container">
     <h2>Stock Price Prediction</h2>
     <p>Select an exchange and entity,</p>
     
-<form action={{url_for('analysis_bp.pricePredictionSubmit')}} method="GET">
-    
-     <label for="jse-main">Main</label>
-     <input type="radio" id="jse-main" name="jse" value="main">
+	<form action={{url_for('analysis_bp.pricePredictionSubmit')}} method="GET">
+		
+		<label for="jse-main">Main</label>
+		<input type="radio" id="jse-main" name="jse" value="main">
 
-    <label for="jse-jnr">Junior</label>
-    <input type="radio" id="jse-jnr" name="jse" value="junior">
+		<label for="jse-jnr">Junior</label>
+		<input type="radio" id="jse-jnr" name="jse" value="junior">
 
-    <br>
-    
-    <label for="symbol">Select a stock symbol</label>
-    <select name="symbol" id="entity">
-		{% for key, value in hSymbols.items() %}
-			<option value="{{ key }}">{{ value }} ({{ key }})</option>
-		{% endfor %}
-    </select>
-    
-    <br>
+		<br>
+		
+		<label for="symbol">Select a stock symbol</label>
+		<select name="symbol" id="entity">
+			<option hidden disabled selected value> -- Select an option -- </option>
+			{% for key, value in hSymbols.items() %}
+				<option value="{{ key }}">{{ value }} ({{ key }})</option>
+			{% endfor %}
+		</select>
+		
+		<input type="checkbox" id="sentiment" name="sentiment" value="True">
+		<label for="sentiment"> Sentiments </label><a href="#" data-tooltip="Select to use models with sentiments">?</a><br>
+		
+		<p>Predicated Price for ({{hPredictedSymbol}}) on Jan 4, 2021 is: <em>{{hPrediction}}</em></p>
 
-    <p>Predicated Price for ({{hPredictedSymbol}}) on Jan 4, 2021 is: <em>{{hPrediction}}</em></p>
-
-<input type="submit" value="Submit">
-</form>
+	<input type="submit" value="Submit">
+	</form>
     
   </div>
+
 {% endblock %}
