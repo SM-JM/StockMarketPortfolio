@@ -33,10 +33,5 @@ def create_app():
         app.register_blueprint(more.more_bp)
 
         db.create_all()  # Create database tables for our data models
-		
-		# Import Dash application
-        from .plotlydash.dashboard import init_dashboard
-        app = init_dashboard(app)
-		
 
         return app

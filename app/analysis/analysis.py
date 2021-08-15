@@ -1,7 +1,7 @@
 from flask 			import Blueprint, render_template, request
-from .modelling		import obtainSinglePrediction
-from .lstm_test		import lstm_model
-from .create_models import create_models
+from bokeh.plotting import figure, output_file, show
+
+
 
 from .lstm_model_load	import *
 from .create_lstm_model_multi_variate import *
@@ -50,8 +50,11 @@ def pricePredictionSubmit():
 	pPrediction = 0
 	pPrediction 		= lstm_model_load(symbol,isUseSentimentModels)
 	
+	createGraph()
+	
 	return render_template(
-        "pricePrediction.jinja2.html",
+        #"pricePrediction.jinja2.html",
+		'graph.html',
 		hPrediction=pPrediction, 
 		hSymbols=pCreatedModelNames,
 		hPredictedSymbol=symbol
@@ -64,3 +67,18 @@ def stockRelationship():
 	return render_template(
 		"stockRelationship.jinja2.html"
 	)
+
+def createGraph():
+	# output to file
+	output_file('./app/analysis/templates/graph.html')  # Render to static HTML
+	  
+	# create figure
+	p = figure(plot_width = 400, plot_height = 400)
+	   
+	# add a line renderer
+	p.line([1, 2, 3, 4, 5], [3, 1, 2, 6, 5], 
+			line_width = 2, color = "green")
+	  
+	# show the results
+	show(p)
+	return
