@@ -110,16 +110,6 @@ def create_LSTM_mv_model2(StockData, symbol_str, features, epochs, lstm_model):
 		train_df = train_df.reset_index(drop=True).copy()
 		
 		
-		# FEATURES = [#'Today_High', 
-					# #'Today_Low', 
-					# 'Close_Price', 
-					# #'Volume_non_block', 
-					# #"no_days_not_traded_since_last_traded", 
-					# "sentiment"
-					# #"is_regarding_financial_report", 
-					# #"is_sold_pur_shares"
-			   # ]
-
 		# Create the dataset with features and filter the data to the list of FEATURES
 		data = pd.DataFrame(train_df)
 		data_filtered = data[features]
