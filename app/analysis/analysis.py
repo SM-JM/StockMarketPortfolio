@@ -28,7 +28,7 @@ def pricePrediction():
 	
 	pCreatedModelNames =  getCreatedModelSymbolsNames()
 	
-	pPrediction = 0
+	pPrediction = ""
     
 	return render_template(
         "pricePrediction.jinja2.html",
@@ -48,7 +48,7 @@ def pricePredictionSubmit():
 	pCreatedModelNames 		= getCreatedModelSymbolsNames()
 	
 	pPrediction = 0
-	#pPrediction 		= lstm_model_load(symbol)
+	pPrediction 		= lstm_model_load(symbol,isUseSentimentModels)
 	
 	return render_template(
         "pricePrediction.jinja2.html",
@@ -59,17 +59,6 @@ def pricePredictionSubmit():
 	
 @analysis_bp.route("/stockRelationship", methods=["GET"])
 def stockRelationship():
-	
-	# Fetching the data
-	# raw_df 				= pd.read_csv(	os.path.join('./app/analysis/historical_data',
-													 # 'prices_sentiment_CCC.csv'),
-										# infer_datetime_format=True, 
-										# sep=','
-						# )
-	
-	# create_LSTM_mv_model(raw_df,"CCC",5)
-	
-	#create_models()
 	
 	
 	return render_template(
