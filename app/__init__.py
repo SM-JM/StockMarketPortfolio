@@ -22,8 +22,8 @@ def create_app():
         from .home            import home
         from .analysis        import analysis
         from .portfolio       import portfolio
-        from .news             import news
-        from .more             import more
+        from .news            import news
+        from .more            import more
         
         # Register all the blueprints
         app.register_blueprint(home.home_bp)
@@ -33,5 +33,10 @@ def create_app():
         app.register_blueprint(more.more_bp)
 
         db.create_all()  # Create database tables for our data models
+		
+		# Import Dash application
+        from .plotlydash.dashboard import init_dashboard
+        app = init_dashboard(app)
+		
 
         return app
