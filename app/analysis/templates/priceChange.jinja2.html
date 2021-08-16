@@ -6,29 +6,32 @@
     <h2>Price Change Calculator</h2>
     <p>Select a stock symbol, start and end dates:</p>
     
-	<form action="/calculate">
+	<form action={{url_for('analysis_bp.priceChangeSubmit')}} method="GET">
 		
-		<label for="symbol">Select a stock symbol</label>
+		<label for="symbol">Select a stock symbol: </label>
 		<select name="symbol" id="entity">
 			<option hidden disabled selected value> -- Select an option -- </option>
-			<option value="GK">Grace Kennedy (GK)</option>
-			<option value="NCB">National Commercial Bank (NCB)</option>
-			<option value="JMMB">Jamaica Money Market Brokers (JMMB)</option>
-			<option value="SGJ">Sagicor Group Jamaica (SGJ)</option>
+			{% for key, value in hSymbols.items() %}
+				<option value="{{ key }}">{{ value }} ({{ key }})</option>
+			{% endfor %}
 		</select>
-		
+		<input type="checkbox" id="isReturnAllPrices" name="isReturnAllPrices" value="True">
+		<label for="isReturnAllPrices"> All prices </label><a href="#" data-tooltip="Select to generate a graph will all price data">?</a>
+
 		<br>
 
 		<label>Start Date:</label>
-		<input type="date" name="sDate"  placeholder="Select Date"><br>    
+		<input type="date" name="sDate" class="date" value="2016-01-04" ><br>    
 		
-		<label>End Date:</label>
-		<input type="date" name="eDate"  placeholder="Select Date"><br>
+		<label>End &nbsp;Date:</label>
+		<input type="date" name="eDate" class="date" value="2020-12-31"><br>
 
 		<p>Historical Return:<em>{{hReturn}}</em></p>
 
-	<input type="submit" value="Submit">
+		<input type="submit" value="Submit">
 	</form>
-    {% include 'graph.html' %}
+	{% if (hReturn != "") and (hReturn != "Error, no symbol selected or invalid symbol!") and (hReturn != "Error, no trades done on both dates indicated.") %}
+		{% include 'graph.html' %}
+	{% endif %}
   </div>
 {% endblock %}

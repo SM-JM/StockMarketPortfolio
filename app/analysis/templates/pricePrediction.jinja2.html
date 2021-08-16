@@ -2,40 +2,6 @@
 {% set saActive_page = "pricePrediction" %}
 
 {% block sub_content %}
-  <style>
-a[data-tooltip]:link, a[data-tooltip]:visited {
-  position: relative;
-  text-decoration: none;
-  border-bottom: solid 1px;
-}
-
-a[data-tooltip]:before {
-  content: "";
-  position: absolute;
-  border-top: 1em solid #0090ff;
-  border-left: 1.5em solid transparent;
-  border-right: 1.5em solid transparent;
-  display: none;
-  top: -1em;
-}
-
-a[data-tooltip]:after {
-  content: attr(data-tooltip);
-  position: absolute;
-  color: white;
-  top: -2.5em;
-  left: -1em;
-  background: #0090ff;
-  padding: .25em .75em;
-  border-radius: .5em;
-  white-space: nowrap;
-  display: none;
-}
-
-a[data-tooltip]:hover:before, a[data-tooltip]:hover:after {
-  display: inline;
-}
-  </style>
   <div class="container">
     <h2>Stock Price Prediction</h2>
    
