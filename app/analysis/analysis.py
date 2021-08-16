@@ -1,4 +1,5 @@
 from flask 			import Blueprint, render_template, request
+from flask 			import current_app as app
 from bokeh.plotting import figure, output_file, show
 from bokeh.models import ColumnDataSource, DatetimeTickFormatter, HoverTool
 from bokeh.models.widgets import DateRangeSlider
@@ -8,8 +9,15 @@ from bokeh.plotting import figure, output_file, show, save
 from sklearn.preprocessing import MinMaxScaler
 from datetime import datetime
 
-from .lstm_model_load	import *
-from .create_lstm_model_multi_variate import *
+import 	os
+import 	glob
+import 	tensorflow 	as 		tf
+from 	tensorflow 	import 	keras
+import 	pandas		as 		pd
+import	numpy		as		np
+
+from .lstm_model_load	import getCreatedModelSymbolsNames, lstm_model_load
+
 
 # Blueprint Configuration
 analysis_bp = Blueprint(
@@ -18,7 +26,7 @@ analysis_bp = Blueprint(
     url_prefix="/analysis"
 )
 
-
+@app.route('/', methods=['GET'])
 @analysis_bp.route("/", methods=["GET"])
 @analysis_bp.route("/priceChange", methods=["GET"])
 def priceChange():
@@ -35,7 +43,7 @@ def priceChange():
 def priceChangeSubmit():
 	
 	# Populate dropdown 
-	pCreatedModelNames 		=  getCreatedModelSymbolsNames()
+	pCreatedModelNames 		= getCreatedModelSymbolsNames()
 	
 	## Get input from user
 	symbol 					= request.args.get("symbol")

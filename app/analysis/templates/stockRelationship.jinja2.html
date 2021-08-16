@@ -3,7 +3,7 @@
 
 {% block sub_content %}
   <div class="container">
-    <h2>Stock Relationship Calculator</h2>
+    <h2>{% block title %}Stock Relationship{% endblock %}</h2>
     <p>Select two stock symbols:</p>
     
 	<form action={{url_for('analysis_bp.stockRelationshipSubmit')}} method="GET">

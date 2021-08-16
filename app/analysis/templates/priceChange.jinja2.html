@@ -1,9 +1,10 @@
+
 {% extends "analysis.jinja2.html" %}
 {% set saActive_page = "price_change" %}
 
 {% block sub_content %}
   <div class="container">
-    <h2>Price Change Calculator</h2>
+    <h2>{% block title %}Stock Price Change{% endblock %}</h2>
     <p>Select a stock symbol, start and end dates:</p>
     
 	<form action={{url_for('analysis_bp.priceChangeSubmit')}} method="GET">

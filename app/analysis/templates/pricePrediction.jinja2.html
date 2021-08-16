@@ -1,9 +1,10 @@
+
 {% extends "analysis.jinja2.html" %}
 {% set saActive_page = "pricePrediction" %}
 
 {% block sub_content %}
   <div class="container">
-    <h2>Stock Price Prediction</h2>
+    <h2>{% block title %}Stock Price Prediction{% endblock %}</h2>
    
 	<form action={{url_for('analysis_bp.pricePredictionSubmit')}} method="GET">
 		
