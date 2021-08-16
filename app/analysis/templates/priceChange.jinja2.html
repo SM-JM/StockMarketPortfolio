@@ -6,37 +6,37 @@
     <h2>Price Change Calculator</h2>
     <p>Select an exchange, entity, start and end dates</p>
     
-<form action="/calculate">
-    
-     <label for="jse-main">Main</label>
-     <input type="radio" id="jse-main" name="jse" value="main">
+	<form action="/calculate">
+		
+		 <label for="jse-main">Main</label>
+		 <input type="radio" id="jse-main" name="jse" value="main">
 
-    <label for="jse-jnr">Junior</label>
-    <input type="radio" id="jse-jnr" name="jse" value="junior">
+		<label for="jse-jnr">Junior</label>
+		<input type="radio" id="jse-jnr" name="jse" value="junior">
 
-    <br>
-    
-    <label for="symbol">Select a stock symbol</label>
-    <select name="symbol" id="entity">
-		<option hidden disabled selected value> -- Select an option -- </option>
-        <option value="GK">Grace Kennedy (GK)</option>
-        <option value="NCB">National Commercial Bank (NCB)</option>
-        <option value="JMMB">Jamaica Money Market Brokers (JMMB)</option>
-        <option value="SGJ">Sagicor Group Jamaica (SGJ)</option>
-    </select>
-    
-    <br>
+		<br>
+		
+		<label for="symbol">Select a stock symbol</label>
+		<select name="symbol" id="entity">
+			<option hidden disabled selected value> -- Select an option -- </option>
+			<option value="GK">Grace Kennedy (GK)</option>
+			<option value="NCB">National Commercial Bank (NCB)</option>
+			<option value="JMMB">Jamaica Money Market Brokers (JMMB)</option>
+			<option value="SGJ">Sagicor Group Jamaica (SGJ)</option>
+		</select>
+		
+		<br>
 
-    <label>Start Date:</label>
-    <input type="date" name="sDate"  placeholder="Select Date"><br>    
-    
-    <label>End Date:</label>
-    <input type="date" name="eDate"  placeholder="Select Date"><br>
+		<label>Start Date:</label>
+		<input type="date" name="sDate"  placeholder="Select Date"><br>    
+		
+		<label>End Date:</label>
+		<input type="date" name="eDate"  placeholder="Select Date"><br>
 
-    <p>Historical Return:<em>{{hReturn}}</em></p>
+		<p>Historical Return:<em>{{hReturn}}</em></p>
 
-<input type="submit" value="Submit">
-</form>
-    
+	<input type="submit" value="Submit">
+	</form>
+    {% include 'graph.html' %}
   </div>
 {% endblock %}
