@@ -23,7 +23,7 @@
 			{% set hSenText = '(using a model with sentiments)' %}
 		{% endif %}
 		{% if hPrediction != "" %}
-			<p>Predicated Price for <b>{{hPredictedSymbol}}</b> {{hSenText}} on Jan 4, 2021 is: <em>{{hPrediction}}</em></p>
+			<p class="pTitle">Predicted Price for <b>{{hPredictedSymbol}}</b> {{hSenText}} on Jan 4, 2021 is: &nbsp;<em>{{hPrediction}}</em></p>
 		{% endif %}
 		<input type="submit" value="Submit">
 	</form>

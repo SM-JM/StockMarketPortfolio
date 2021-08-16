@@ -200,7 +200,6 @@ def createStockRelationshipGraph(symbolA,symbolB):
 				x_axis_label="Date", x_axis_type='datetime',
 				y_axis_label="Relative Price",
 				plot_width = 1500, plot_height = 400,
-				#tools="pan, wheel_zoom, box_zoom, reset",
 				background_fill_color="#F2F2F2")
 	   
 	# add a line renderer
@@ -326,7 +325,6 @@ def createPriceChangeGraph(symbol,startDate,endDate,allPrices):
 				x_axis_label="Date", x_axis_type='datetime',
 				y_axis_label="Price",
 				plot_width = 1500, plot_height = 400,
-				#tools="pan, wheel_zoom, box_zoom, reset",
 				background_fill_color="#F2F2F2")
 	   
 	# add a line renderer
