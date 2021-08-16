@@ -5,7 +5,7 @@ from bokeh.models.widgets import DateRangeSlider
 from bokeh.layouts import layout, column
 from bokeh.models.callbacks import CustomJS
 from bokeh.plotting import figure, output_file, show, save
-
+from sklearn.preprocessing import MinMaxScaler
 from datetime import datetime
 
 from .lstm_model_load	import *
@@ -116,10 +116,111 @@ def pricePredictionSubmit():
 @analysis_bp.route("/stockRelationship", methods=["GET"])
 def stockRelationship():
 	
+	pCreatedModelNames 		= getCreatedModelSymbolsNames()
 	
+	pSubmitFlag="False"
+
 	return render_template(
-		"stockRelationship.jinja2.html"
+		"stockRelationship.jinja2.html",
+		hSymbols=pCreatedModelNames,
+		hSubmitFlag=pSubmitFlag
 	)
+	
+@analysis_bp.route("/stockRelationshipSubmit", methods=["GET"])
+def stockRelationshipSubmit():
+	
+	pCreatedModelNames		= getCreatedModelSymbolsNames()
+	
+	symbolA					= request.args.get("symbolA")
+	symbolB					= request.args.get("symbolB")
+	
+	pSubmitFlag="False"
+	
+	if (symbolA is not None) and (symbolB is not None):
+		createStockRelationshipGraph(symbolA,symbolB)
+		pSubmitFlag = "True"
+		
+	return render_template(
+		"stockRelationship.jinja2.html",
+		hSymbols=pCreatedModelNames,
+		hSubmitFlag=pSubmitFlag
+	)	
+	
+def createStockRelationshipGraph(symbolA,symbolB):	
+	# Set file to output graph to
+	output_file('./app/analysis/templates/graph.html')  # Render to static HTML
+	
+	# Get data for graphs and scale Close_Price between 0 and 1
+	dfA 			= getPriceData(symbolA)
+	scalerA 		= MinMaxScaler() 
+	a = dfA.Close_Price.to_numpy()
+	a = a.reshape(-1, 1)
+	scalerA.fit(a)
+	a = scalerA.transform(a)
+	dfA.Close_Price = a.reshape(-1)
+	
+	dfB 			= getPriceData(symbolB)
+	scalerB 		= MinMaxScaler() 
+	b = dfB.Close_Price.to_numpy()
+	b = b.reshape(-1, 1)
+	scalerB.fit(b)
+	b = scalerB.transform(b)
+	dfB.Close_Price = b.reshape(-1)
+	
+	z = dfA["Date"] # No filtering is need so assign string dates to z before conversion to datetime
+		
+	x 	= pd.to_datetime(dfA["Date"], infer_datetime_format=True)
+	x 	= x.tolist()
+	datesX   = x 
+	
+	x2 	= pd.to_datetime(dfB["Date"], infer_datetime_format=True)
+	x2 	= x2.tolist()
+	datesX2   = x2
+	
+	valuesY  = pd.DataFrame(dfA["Close_Price"].tolist(), columns=["A"])
+	valuesY2 = pd.DataFrame(dfB["Close_Price"].tolist(), columns=["A"])
+
+	source   = ColumnDataSource(data={'x': datesX,  'y': valuesY['A'], 'z':z}) 	
+	source2  = ColumnDataSource(data={'x': datesX2, 'y': valuesY2['A'], 'z':z}) 	
+		
+	hover = HoverTool(
+		tooltips=[('Date', '@z'), ('Price', '@y')])
+		
+	# Create figure
+	gTitle = "Price History comparision for "+symbolA+" and "+symbolB
+	p = figure(	title=gTitle,
+				x_axis_label="Date", x_axis_type='datetime',
+				y_axis_label="Relative Price",
+				plot_width = 1500, plot_height = 400,
+				#tools="pan, wheel_zoom, box_zoom, reset",
+				background_fill_color="#F2F2F2")
+	   
+	# add a line renderer
+	p.line(x='x', y='y', source=source, legend_label=symbolA, line_color="royalblue", line_width=3)
+	p.circle('x', y='y', source=source, legend_label=symbolA,  color="grey", size=2)
+
+	p.line(x='x', y='y', source=source2, legend_label=symbolB, line_color="green", line_width=3)
+	p.square('x', y='y', source=source2, legend_label=symbolB,  color="DimGrey", size=2)
+
+
+
+	p.add_tools(hover)
+
+	#Formatting
+	p.title.text_font_size			  = '20pt'
+	p.axis.major_label_text_font_size = '15pt'
+	p.axis.axis_label_text_font_style = 'bold italic'
+	p.xaxis.axis_label_text_font_size = "16pt"
+	p.yaxis.axis_label_text_font_size = "16pt"
+	p.legend.location = "top_left"
+
+	
+	# show the results
+	show(p)	
+
+	return
+
+	
 def getPriceData(symbol):
 
 	#### Load dataset
@@ -217,7 +318,7 @@ def createPriceChangeGraph(symbol,startDate,endDate,allPrices):
 				x_axis_label="Date", x_axis_type='datetime',
 				y_axis_label="Price",
 				plot_width = 1500, plot_height = 400,
-				tools="pan, wheel_zoom, box_zoom, reset",
+				#tools="pan, wheel_zoom, box_zoom, reset",
 				background_fill_color="#F2F2F2")
 	   
 	# add a line renderer
