@@ -3,18 +3,10 @@
 
 {% block sub_content %}
   <div class="container">
-    <h2>Stock Relationshiop Calculator</h2>
-    <p>Select an exchange, two entities, start and end dates</p>
+    <h2>Stock Relationship Calculator</h2>
+    <p>Select two stock symbols:</p>
     
 <form action="/calculate">
-    
-     <label for="jse-main">Main</label>
-     <input type="radio" id="jse-main" name="jse" value="main">
-
-    <label for="jse-jnr">Junior</label>
-    <input type="radio" id="jse-jnr" name="jse" value="junior">
-
-    <br>
     
     <label for="symbol">Select a stock symbol (Stock A)</label>
     <select name="symbol" id="entity">
@@ -36,14 +28,8 @@
 
     
     <br>
-
-    <label>Start Date:</label>
-    <input type="date" name="sDate"  placeholder="Select Date"><br>    
-    
-    <label>End Date:</label>
-    <input type="date" name="eDate"  placeholder="Select Date"><br>
-
-<input type="submit" value="Submit">
+	<br>
+	<input type="submit" value="Submit">
 </form>
     
   </div>

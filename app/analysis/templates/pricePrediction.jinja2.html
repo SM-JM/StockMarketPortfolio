@@ -51,15 +51,14 @@ a[data-tooltip]:hover:before, a[data-tooltip]:hover:after {
 		
 		<input type="checkbox" id="sentiment" name="sentiment" value="True">
 		<label for="sentiment"> Sentiments </label><a href="#" data-tooltip="Select to use models with sentiments">?</a>
-		<br>
+		<br><br>
 		{% if hIsSentimentModel == "True" %}
 			{% set hSenText = '(using a model with sentiments)' %}
 		{% endif %}
 		{% if hPrediction != "" %}
 			<p>Predicated Price for <b>{{hPredictedSymbol}}</b> {{hSenText}} on Jan 4, 2021 is: <em>{{hPrediction}}</em></p>
 		{% endif %}
-
-	<input type="submit" value="Submit">
+		<input type="submit" value="Submit">
 	</form>
 	<br>
 	{% if hPrediction != "" %}

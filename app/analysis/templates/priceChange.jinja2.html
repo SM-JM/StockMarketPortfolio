@@ -4,17 +4,9 @@
 {% block sub_content %}
   <div class="container">
     <h2>Price Change Calculator</h2>
-    <p>Select an exchange, entity, start and end dates</p>
+    <p>Select a stock symbol, start and end dates:</p>
     
 	<form action="/calculate">
-		
-		 <label for="jse-main">Main</label>
-		 <input type="radio" id="jse-main" name="jse" value="main">
-
-		<label for="jse-jnr">Junior</label>
-		<input type="radio" id="jse-jnr" name="jse" value="junior">
-
-		<br>
 		
 		<label for="symbol">Select a stock symbol</label>
 		<select name="symbol" id="entity">
