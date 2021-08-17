@@ -65,19 +65,29 @@ def priceChangeSubmit():
 		df.set_index(df.Date, inplace=True)
 
 		dateList = df.Date.tolist()
-		if (pStartDate not in dateList) or (pEndDate not in dateList):
-			pReturn = "Error, no trades done on both dates indicated."
-		else:
-			## Get the startPrice and endPrice as a single value
-			startPrice = (df.loc[df.Date==pStartDate,["Close_Price"]]["Close_Price"].tolist())[0]
-			endPrice   = (df.loc[df.Date==pEndDate,  ["Close_Price"]]["Close_Price"].tolist())[0]
-			
-			# Initialise percentChange then calculate if values are valid
-			percentChange = 0.0
-			if startPrice > 0.0 and endPrice > 0.0:
-				percentChange = (endPrice-startPrice)/startPrice
-			pReturn = "{:.2%}".format(percentChange)
-			createPriceChangeGraph(symbol=symbol,startDate=pStartDate,endDate=pEndDate,allPrices=pAllPrices)
+		
+		def nearest(items, pivot):
+			return min(items, key=lambda x: abs(x - pivot))
+		
+		if (pStartDate not in dateList):
+			pStartDate = nearest(dateList, pStartDate)
+		if (pEndDate not in dateList):
+			pEndDate = nearest(dateList, pEndDate)
+
+			#pReturn = "Error, no trades done on both dates indicated."
+		#else:
+		print("[{}] startDate".format(pStartDate))
+		print("[{}] endDate".format(pEndDate))
+		## Get the startPrice and endPrice as a single value
+		startPrice = (df.loc[df.Date==pStartDate,["Close_Price"]]["Close_Price"].tolist())[0]
+		endPrice   = (df.loc[df.Date==pEndDate,  ["Close_Price"]]["Close_Price"].tolist())[0]
+		
+		# Initialise percentChange then calculate if values are valid
+		percentChange = 0.0
+		if startPrice > 0.0 and endPrice > 0.0:
+			percentChange = (endPrice-startPrice)/startPrice
+		pReturn = "{:.2%}".format(percentChange)
+		createPriceChangeGraph(symbol=symbol,startDate=pStartDate,endDate=pEndDate,allPrices=pAllPrices)
 	else:
 		pReturn = "Error, no symbol selected or invalid symbol!"
 	return render_template(
