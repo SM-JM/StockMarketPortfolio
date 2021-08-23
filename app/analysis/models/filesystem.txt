@@ -1,0 +1,11 @@
+Filesystem      Size  Used Avail Use% Mounted on
+overlay         108G   38G   71G  35% /
+tmpfs            64M     0   64M   0% /dev
+tmpfs           6.4G     0  6.4G   0% /sys/fs/cgroup
+shm             5.9G     0  5.9G   0% /dev/shm
+tmpfs           6.4G   36K  6.4G   1% /var/colab
+/dev/sda1        76G   42G   35G  55% /etc/hosts
+tmpfs           6.4G     0  6.4G   0% /proc/acpi
+tmpfs           6.4G     0  6.4G   0% /proc/scsi
+tmpfs           6.4G     0  6.4G   0% /sys/firmware
+drive           108G   41G   68G  38% /content/drive

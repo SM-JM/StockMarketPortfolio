@@ -1,13 +1,12 @@
-import 	os
+####################################################################
+# Author:       Shane Miller
+# Course:       COMP6830 Data Science Capstone Project II
+# Purpose:      To enable loading of the LSTM models
+# Description:  Program pulls the LSTM models from file and loads
+#               them into memory.
+####################################################################
+
 import 	glob
-import 	tensorflow 	as 		tf
-from 	tensorflow 	import 	keras
-import 	pandas		as 		pd
-import	numpy		as		np
-
-from sklearn.preprocessing import  MinMaxScaler # This Scaler removes the median and scales the data according to the quantile range to normalize the price data 
-
-
 import math # Mathematical functions 
 import numpy as np # Fundamental package for scientific computing with Python
 import pandas as pd # Additional functions for analysing and manipulating data
@@ -15,14 +14,8 @@ import time
 import os
 import os.path
 from datetime import date, timedelta, datetime # Date Functions
-#from pandas.plotting import register_matplotlib_converters # This function adds plotting functions for calender dates
-#import matplotlib.pyplot as plt # Important package for visualization - we use this to plot the market data
-#import matplotlib.dates as mdates # Formatting dates
 import tensorflow as tf
 from tensorflow import keras
-
-
-
 from sklearn.metrics import mean_absolute_error, mean_squared_error # Packages for measuring model performance / errors
 from tensorflow.keras.models import Sequential # Deep learning library, used for neural networks
 from tensorflow.keras.layers import LSTM, Dense, Dropout # Deep learning classes for recurrent and regular densely-connected layers

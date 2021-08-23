@@ -8,7 +8,6 @@ certifi==2021.5.30
 cffi==1.14.6
 chardet==4.0.0
 click==7.1.2
-cryptography==3.4.7
 cycler==0.10.0
 filelock==3.0.12
 Flask==1.1.2
@@ -16,9 +15,6 @@ Flask-Compress==1.10.1
 flatbuffers==1.12
 future==0.18.2
 gast==0.4.0
-google-auth==1.32.1
-google-auth-oauthlib==0.4.4
-google-pasta==0.2.0
 grpcio==1.34.1
 h5py==3.1.0
 idna==2.10
@@ -27,7 +23,6 @@ itsdangerous==1.1.0
 Jinja2==2.11.2
 joblib==1.0.1
 Keras==2.4.3
-keras-nightly==2.5.0.dev2021032900
 Keras-Preprocessing==1.1.2
 kiwisolver==1.3.1
 lxml==4.6.3
@@ -40,7 +35,6 @@ opt-einsum==3.3.0
 packaging==21.0
 pandas==1.3.0
 Pillow==8.3.1
-plotly==5.2.1
 protobuf==3.14.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8

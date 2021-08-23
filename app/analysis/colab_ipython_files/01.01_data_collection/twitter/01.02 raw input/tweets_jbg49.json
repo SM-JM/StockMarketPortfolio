@@ -1,0 +1,2641 @@
+{
+    "requestParameters": {
+        "fromDate": "201601010000",
+        "maxResults": 500,
+        "toDate": "202101010000"
+    },
+    "results": [
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Tue Jan 05 03:30:31 +0000 2016",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": []
+            },
+            "favorite_count": 0,
+            "favorited": false,
+            "filter_level": "low",
+            "geo": null,
+            "id": 684215372455776257,
+            "id_str": "684215372455776257",
+            "in_reply_to_screen_name": null,
+            "in_reply_to_status_id": 684215178506928128,
+            "in_reply_to_status_id_str": "684215178506928128",
+            "in_reply_to_user_id": 405646707,
+            "in_reply_to_user_id_str": "405646707",
+            "is_quote_status": false,
+            "lang": "in",
+            "matching_rules": [
+                {
+                    "tag": null
+                }
+            ],
+            "place": null,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+            "text": "@NicoOC79 dije JBG. Ja!",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Mon Jul 06 00:34:40 +0000 2009",
+                "default_profile": false,
+                "default_profile_image": false,
+                "derived": {
+                    "locations": [
+                        {
+                            "country": "Argentina",
+                            "country_code": "AR",
+                            "full_name": "Buenos Aires, Buenos Aires F.D., Argentina",
+                            "geo": {
+                                "coordinates": [
+                                    -58.37723,
+                                    -34.61315
+                                ],
+                                "type": "point"
+                            },
+                            "locality": "Buenos Aires",
+                            "region": "Buenos Aires F.D."
+                        }
+                    ]
+                },
+                "description": "#Entrepreneur & Mg. en #Marketing. Catador de #vino. Lic. en #Comunicaci\u00f3n. De #Independiente. MBA. Cocino. No dejo de so\u00f1ar.",
+                "favourites_count": 560,
+                "follow_request_sent": null,
+                "followers_count": 1776,
+                "following": null,
+                "friends_count": 922,
+                "geo_enabled": true,
+                "id": 54055810,
+                "id_str": "54055810",
+                "is_translator": false,
+                "lang": null,
+                "listed_count": 81,
+                "location": "Olivos, Buenos Aires",
+                "name": "Patricio De Leo",
+                "notifications": null,
+                "profile_background_color": "1D2F61",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/54055810/1404102269",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/503582834087313410/cSGS2FzB_normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/503582834087313410/cSGS2FzB_normal.jpeg",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "D8D9DB",
+                "profile_text_color": "4046F7",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "patriciodeleo",
+                "statuses_count": 49178,
+                "time_zone": null,
+                "translator_type": "none",
+                "url": "http://www.linkedin.com/in/patriciogarciadeleo",
+                "utc_offset": null,
+                "verified": false,
+                "withheld_in_countries": []
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Mon Jan 04 21:30:21 +0000 2016",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": [
+                    {
+                        "id": 1351676004,
+                        "id_str": "1351676004",
+                        "indices": [
+                            0,
+                            15
+                        ],
+                        "name": "MarinelaElpida",
+                        "screen_name": "MarinelaElpida"
+                    }
+                ]
+            },
+            "favorite_count": 0,
+            "favorited": false,
+            "filter_level": "low",
+            "geo": null,
+            "id": 684124733261115392,
+            "id_str": "684124733261115392",
+            "in_reply_to_screen_name": "KarminCrvena",
+            "in_reply_to_status_id": 684124349968826368,
+            "in_reply_to_status_id_str": "684124349968826368",
+            "in_reply_to_user_id": 135419078,
+            "in_reply_to_user_id_str": "135419078",
+            "is_quote_status": false,
+            "lang": "lv",
+            "matching_rules": [
+                {
+                    "tag": null
+                }
+            ],
+            "place": null,
+            "quote_count": 0,
+            "reply_count": 1,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "@MarinelaElpida A jbg, ja radim NA RA\u010cUNARU. :D",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Mon Dec 14 20:15:21 +0000 2009",
+                "default_profile": false,
+                "default_profile_image": false,
+                "description": "Staromodna. Selektivna. Radoznala. Prihvatam druge onakve kakvi jesu, ne dozvoljavam da me prema sebi menjaju.",
+                "favourites_count": 9210,
+                "follow_request_sent": null,
+                "followers_count": 1773,
+                "following": null,
+                "friends_count": 1239,
+                "geo_enabled": true,
+                "id": 96831891,
+                "id_str": "96831891",
+                "is_translator": false,
+                "lang": null,
+                "listed_count": 44,
+                "location": "Novi Sad / Po\u017earevac, Srbija",
+                "name": "Marija R.",
+                "notifications": null,
+                "profile_background_color": "022330",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+                "profile_background_tile": false,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/96831891/1385714359",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/683816253060988928/HVCncN3f_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/683816253060988928/HVCncN3f_normal.jpg",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "C0DFEC",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "looditza",
+                "statuses_count": 33395,
+                "time_zone": null,
+                "translator_type": "none",
+                "url": "http://looditza-mojmalisvet.blogspot.com/",
+                "utc_offset": null,
+                "verified": false,
+                "withheld_in_countries": []
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Mon Jan 04 18:57:35 +0000 2016",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": [
+                    {
+                        "id": 729242119,
+                        "id_str": "729242119",
+                        "indices": [
+                            0,
+                            10
+                        ],
+                        "name": "Felce Azzurro",
+                        "screen_name": "darnartan"
+                    }
+                ]
+            },
+            "favorite_count": 0,
+            "favorited": false,
+            "filter_level": "low",
+            "geo": null,
+            "id": 684086288165789699,
+            "id_str": "684086288165789699",
+            "in_reply_to_screen_name": "darnartan",
+            "in_reply_to_status_id": 684085810606505984,
+            "in_reply_to_status_id_str": "684085810606505984",
+            "in_reply_to_user_id": 729242119,
+            "in_reply_to_user_id_str": "729242119",
+            "is_quote_status": false,
+            "lang": "und",
+            "matching_rules": [
+                {
+                    "tag": null
+                }
+            ],
+            "place": null,
+            "quote_count": 0,
+            "reply_count": 1,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+            "text": "@DarNarTan A jbg, ja se nadam tom top8, a stoji da je ovo mnogo bitno bilo...",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Fri Jan 13 18:14:18 +0000 2012",
+                "default_profile": true,
+                "default_profile_image": false,
+                "derived": {
+                    "locations": [
+                        {
+                            "country": "Serbia",
+                            "country_code": "RS",
+                            "full_name": "Serbia",
+                            "geo": {
+                                "coordinates": [
+                                    20.45998,
+                                    44.81892
+                                ],
+                                "type": "point"
+                            }
+                        }
+                    ]
+                },
+                "description": "\u0426\u0438\u0433\u0430\u043d\u0438\u043d!\n\n\u0409\u0443\u0431\u0438\u0442\u0435\u0459 \u0417\u0432\u0435\u0437\u0434\u0435, \u0412\u043e\u0436\u0434\u043e\u0432\u0446\u0430, \u0431\u0443\u0440\u0435\u043a\u0430 \u0438 \u0441\u0432\u0435\u0433\u0430 \u0434\u0440\u0443\u0433\u043e\u0433 \u0448\u0442\u043e \u0432\u0435\u0433\u0435\u0442\u0430\u0440\u0438\u0458\u0430\u043d\u0446\u0438 \u043f\u0440\u0435\u0437\u0438\u0440\u0443!\n\n\u0414\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0438\u0458\u0443 \u0441\u0430\u043c \u0443\u043a\u0438\u043d\u0443\u043e!\n#IStandWithGreece",
+                "favourites_count": 263940,
+                "follow_request_sent": null,
+                "followers_count": 3995,
+                "following": null,
+                "friends_count": 3529,
+                "geo_enabled": true,
+                "id": 463086845,
+                "id_str": "463086845",
+                "is_translator": false,
+                "lang": null,
+                "listed_count": 12,
+                "location": "Vozdovac, Beograd, Srbija.",
+                "name": "\u0423\u0433\u0440\u0443\u0432\u0430\u043d\u0438 \u041f\u0438\u043d\u0433\u0432\u0438\u043d \ud83d\udc27 \ud83c\uddf7\ud83c\uddf8\ud83d\udd34\u26aa",
+                "notifications": null,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/463086845/1355759338",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1365630540473327622/u6ITF67N_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1365630540473327622/u6ITF67N_normal.jpg",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "MarkoVozdovac",
+                "statuses_count": 45679,
+                "time_zone": null,
+                "translator_type": "none",
+                "url": null,
+                "utc_offset": null,
+                "verified": false,
+                "withheld_in_countries": []
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Mon Jan 04 17:58:16 +0000 2016",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": [
+                    {
+                        "id": 2227629357,
+                        "id_str": "2227629357",
+                        "indices": [
+                            0,
+                            10
+                        ],
+                        "name": "\u041c\u0430\u0440\u043a\u043e \u041a\u043d\u0435\u0436\u0435\u0432\u0438\u045b",
+                        "screen_name": "EnteringM"
+                    },
+                    {
+                        "id": 1887827030,
+                        "id_str": "1887827030",
+                        "indices": [
+                            97,
+                            108
+                        ],
+                        "name": "Kuruzovina",
+                        "screen_name": "kuruzovina"
+                    },
+                    {
+                        "id": 347862461,
+                        "id_str": "347862461",
+                        "indices": [
+                            109,
+                            117
+                        ],
+                        "name": "Republika Srpska",
+                        "screen_name": "RSrpska"
+                    }
+                ]
+            },
+            "favorite_count": 1,
+            "favorited": false,
+            "filter_level": "low",
+            "geo": null,
+            "id": 684071358888865794,
+            "id_str": "684071358888865794",
+            "in_reply_to_screen_name": "Alxlreed",
+            "in_reply_to_status_id": 684070505666736128,
+            "in_reply_to_status_id_str": "684070505666736128",
+            "in_reply_to_user_id": 206277408,
+            "in_reply_to_user_id_str": "206277408",
+            "is_quote_status": false,
+            "lang": "und",
+            "matching_rules": [
+                {
+                    "tag": null
+                }
+            ],
+            "place": null,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "@EnteringM e jbg ja mislio ti pri\u010da\u0161 o kra\u0111i, a tema obi\u010dna slu\u010dajna ubistva zbog kra\u0111e, ssory.. @kuruzovina @RSrpska",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Fri Oct 22 16:45:12 +0000 2010",
+                "default_profile": false,
+                "default_profile_image": false,
+                "description": null,
+                "favourites_count": 49867,
+                "follow_request_sent": null,
+                "followers_count": 986,
+                "following": null,
+                "friends_count": 101,
+                "geo_enabled": true,
+                "id": 206277408,
+                "id_str": "206277408",
+                "is_translator": false,
+                "lang": null,
+                "listed_count": 4,
+                "location": null,
+                "name": "AleksandarVranje\u0161",
+                "notifications": null,
+                "profile_background_color": "352726",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+                "profile_background_tile": true,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/206277408/1595371435",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1285707094075805703/TBtXBwJU_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1285707094075805703/TBtXBwJU_normal.jpg",
+                "profile_link_color": "D02B55",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "000000",
+                "profile_text_color": "000000",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "Alxlreed",
+                "statuses_count": 13253,
+                "time_zone": null,
+                "translator_type": "none",
+                "url": null,
+                "utc_offset": null,
+                "verified": false,
+                "withheld_in_countries": []
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Mon Jan 04 02:42:33 +0000 2016",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": [
+                    {
+                        "id": 907903802,
+                        "id_str": "907903802",
+                        "indices": [
+                            0,
+                            7
+                        ],
+                        "name": "AstroG",
+                        "screen_name": "Astr0G"
+                    },
+                    {
+                        "id": 43879086,
+                        "id_str": "43879086",
+                        "indices": [
+                            8,
+                            15
+                        ],
+                        "name": "Nerviosa",
+                        "screen_name": "vagax2"
+                    },
+                    {
+                        "id": 1906934713,
+                        "id_str": "1906934713",
+                        "indices": [
+                            16,
+                            28
+                        ],
+                        "name": "#VoziBezbedno",
+                        "screen_name": "SaobrKamera"
+                    }
+                ]
+            },
+            "favorite_count": 1,
+            "favorited": false,
+            "filter_level": "low",
+            "geo": null,
+            "id": 683840913274187776,
+            "id_str": "683840913274187776",
+            "in_reply_to_screen_name": "Astr0G",
+            "in_reply_to_status_id": 683771219435458561,
+            "in_reply_to_status_id_str": "683771219435458561",
+            "in_reply_to_user_id": 907903802,
+            "in_reply_to_user_id_str": "907903802",
+            "is_quote_status": false,
+            "lang": "und",
+            "matching_rules": [
+                {
+                    "tag": null
+                }
+            ],
+            "place": {
+                "attributes": {},
+                "bounding_box": {
+                    "coordinates": [
+                        [
+                            [
+                                18.846513,
+                                42.236301
+                            ],
+                            [
+                                18.846513,
+                                46.190032
+                            ],
+                            [
+                                23.006392,
+                                46.190032
+                            ],
+                            [
+                                23.006392,
+                                42.236301
+                            ]
+                        ]
+                    ],
+                    "type": "Polygon"
+                },
+                "country": "Republic of Serbia",
+                "country_code": "RS",
+                "full_name": "Republic of Serbia",
+                "id": "58a08d4ddc8aab9f",
+                "name": "Republic of Serbia",
+                "place_type": "country",
+                "url": "https://api.twitter.com/1.1/geo/id/58a08d4ddc8aab9f.json"
+            },
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "@Astr0G @vagax2 @SaobrKamera E jbg, ja znam jedino ko je \u0160utanovac pa mi \u0161ala nije jasna. To ne\u0161to me\u0111ustrana\u010dki?",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Fri Jun 07 14:24:55 +0000 2013",
+                "default_profile": false,
+                "default_profile_image": false,
+                "derived": {
+                    "locations": [
+                        {
+                            "country": "Serbia",
+                            "country_code": "RS",
+                            "full_name": "Belgrade, Central Serbia, Serbia",
+                            "geo": {
+                                "coordinates": [
+                                    20.46513,
+                                    44.80401
+                                ],
+                                "type": "point"
+                            },
+                            "locality": "Belgrade",
+                            "region": "Central Serbia"
+                        }
+                    ]
+                },
+                "description": "Zrno po zrno poga\u010da, blok po blok pala\u010da. \ud83c\uddf7\ud83c\uddf8",
+                "favourites_count": 92392,
+                "follow_request_sent": null,
+                "followers_count": 11006,
+                "following": null,
+                "friends_count": 10460,
+                "geo_enabled": true,
+                "id": 1490493582,
+                "id_str": "1490493582",
+                "is_translator": false,
+                "lang": null,
+                "listed_count": 56,
+                "location": "Belgrade, Republic of Serbia",
+                "name": "Bodljikava \ud83c\uddf7\ud83c\uddf8",
+                "notifications": null,
+                "profile_background_color": "1A1B1F",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+                "profile_background_tile": true,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/1490493582/1608767030",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1303912327981551617/ubQXtkdc_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1303912327981551617/ubQXtkdc_normal.jpg",
+                "profile_link_color": "2FC2EF",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "252429",
+                "profile_text_color": "666666",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "Bodljikava",
+                "statuses_count": 175028,
+                "time_zone": null,
+                "translator_type": "none",
+                "url": null,
+                "utc_offset": null,
+                "verified": false,
+                "withheld_in_countries": []
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Mon Jan 04 00:32:31 +0000 2016",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [
+                    {
+                        "display_url": "fb.me/7zO7YdrSf",
+                        "expanded_url": "http://fb.me/7zO7YdrSf",
+                        "indices": [
+                            65,
+                            88
+                        ],
+                        "unwound": {
+                            "description": null,
+                            "status": null,
+                            "title": null,
+                            "url": null
+                        },
+                        "url": "https://t.co/vRgQ493DuG"
+                    }
+                ],
+                "user_mentions": []
+            },
+            "favorite_count": 0,
+            "favorited": false,
+            "filter_level": "low",
+            "geo": null,
+            "id": 683808189821902848,
+            "id_str": "683808189821902848",
+            "in_reply_to_screen_name": null,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "is_quote_status": false,
+            "lang": "und",
+            "matching_rules": [
+                {
+                    "tag": null
+                }
+            ],
+            "place": null,
+            "possibly_sensitive": false,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>",
+            "text": "jbg ja sam motivac ali jo\u0161 jednom the music of my babe steps ... https://t.co/vRgQ493DuG",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Sun Mar 06 23:05:08 +0000 2011",
+                "default_profile": false,
+                "default_profile_image": false,
+                "derived": {
+                    "locations": [
+                        {
+                            "country": "Slovenia",
+                            "country_code": "SI",
+                            "full_name": "Kranj, Kranj, Slovenia",
+                            "geo": {
+                                "coordinates": [
+                                    14.35561,
+                                    46.23887
+                                ],
+                                "type": "point"
+                            },
+                            "locality": "Kranj",
+                            "region": "Kranj"
+                        }
+                    ]
+                },
+                "description": "Linux System Engineer, affiliate programmes, SEO, Blogging, Internet marketing",
+                "favourites_count": 4,
+                "follow_request_sent": null,
+                "followers_count": 310,
+                "following": null,
+                "friends_count": 1315,
+                "geo_enabled": true,
+                "id": 261898164,
+                "id_str": "261898164",
+                "is_translator": false,
+                "lang": null,
+                "listed_count": 6,
+                "location": "Kranj, Slovenia",
+                "name": "Sa\u0161a Perdan",
+                "notifications": null,
+                "profile_background_color": "000000",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+                "profile_background_tile": false,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/261898164/1552574286",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1106202383258976256/UBnyAmQt_normal.png",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1106202383258976256/UBnyAmQt_normal.png",
+                "profile_link_color": "1B95E0",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "000000",
+                "profile_text_color": "000000",
+                "profile_use_background_image": false,
+                "protected": false,
+                "screen_name": "SashaMann",
+                "statuses_count": 675,
+                "time_zone": null,
+                "translator_type": "none",
+                "url": "http://www.perdan.net",
+                "utc_offset": null,
+                "verified": false,
+                "withheld_in_countries": []
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Sun Jan 03 20:59:15 +0000 2016",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": [
+                    {
+                        "id": 48102275,
+                        "id_str": "48102275",
+                        "indices": [
+                            0,
+                            9
+                        ],
+                        "name": "Ray",
+                        "screen_name": "Ray__Day"
+                    }
+                ]
+            },
+            "favorite_count": 1,
+            "favorited": false,
+            "filter_level": "low",
+            "geo": null,
+            "id": 683754517402353665,
+            "id_str": "683754517402353665",
+            "in_reply_to_screen_name": "Ray__Day",
+            "in_reply_to_status_id": 683744279274110976,
+            "in_reply_to_status_id_str": "683744279274110976",
+            "in_reply_to_user_id": 48102275,
+            "in_reply_to_user_id_str": "48102275",
+            "is_quote_status": false,
+            "lang": "und",
+            "matching_rules": [
+                {
+                    "tag": null
+                }
+            ],
+            "place": null,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "@Ray__Day Jbg, ja svoj sneg o\u010distila, a da ni selfie s lopatom nisam napravila.",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Wed Feb 22 15:32:11 +0000 2012",
+                "default_profile": true,
+                "default_profile_image": false,
+                "description": "Ni\u0161ta meni bez mene.",
+                "favourites_count": 38007,
+                "follow_request_sent": null,
+                "followers_count": 2494,
+                "following": null,
+                "friends_count": 2121,
+                "geo_enabled": true,
+                "id": 499874038,
+                "id_str": "499874038",
+                "is_translator": false,
+                "lang": null,
+                "listed_count": 10,
+                "location": null,
+                "name": "svjetlana rasic",
+                "notifications": null,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1846312415/Svjetlana_2_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1846312415/Svjetlana_2_normal.jpg",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "svjetlanarasic",
+                "statuses_count": 14346,
+                "time_zone": null,
+                "translator_type": "none",
+                "url": null,
+                "utc_offset": null,
+                "verified": false,
+                "withheld_in_countries": []
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Sun Jan 03 18:34:14 +0000 2016",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": [
+                    {
+                        "id": 2776905224,
+                        "id_str": "2776905224",
+                        "indices": [
+                            0,
+                            11
+                        ],
+                        "name": "slavenka",
+                        "screen_name": "slavenkahn"
+                    }
+                ]
+            },
+            "favorite_count": 2,
+            "favorited": false,
+            "filter_level": "low",
+            "geo": null,
+            "id": 683718022163480577,
+            "id_str": "683718022163480577",
+            "in_reply_to_screen_name": "slavenkahn",
+            "in_reply_to_status_id": 683717044886441985,
+            "in_reply_to_status_id_str": "683717044886441985",
+            "in_reply_to_user_id": 2776905224,
+            "in_reply_to_user_id_str": "2776905224",
+            "is_quote_status": false,
+            "lang": "in",
+            "matching_rules": [
+                {
+                    "tag": null
+                }
+            ],
+            "place": null,
+            "quote_count": 0,
+            "reply_count": 2,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+            "text": "@slavenkahn hahaha jbg ja taman mislio da smo sklopili prijateljstvo jbg blokira me. :-D",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Fri May 23 18:24:43 +0000 2014",
+                "default_profile": true,
+                "default_profile_image": false,
+                "derived": {
+                    "locations": [
+                        {
+                            "country": "Guinea",
+                            "country_code": "GN",
+                            "full_name": "Guinea",
+                            "geo": {
+                                "coordinates": [
+                                    -10.0,
+                                    11.0
+                                ],
+                                "type": "point"
+                            }
+                        }
+                    ]
+                },
+                "description": "Ima jedna zemlja od Une do Drine.                 Partizan Beograd. \u0413\u0420\u0421",
+                "favourites_count": 539294,
+                "follow_request_sent": null,
+                "followers_count": 1019,
+                "following": null,
+                "friends_count": 1019,
+                "geo_enabled": true,
+                "id": 2560650071,
+                "id_str": "2560650071",
+                "is_translator": false,
+                "lang": null,
+                "listed_count": 24,
+                "location": "Republic of Srpska",
+                "name": "Milo\u0161",
+                "notifications": null,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2560650071/1619847416",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1073189222994067456/bfngWTR6_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1073189222994067456/bfngWTR6_normal.jpg",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "DjuleMilos",
+                "statuses_count": 65598,
+                "time_zone": null,
+                "translator_type": "none",
+                "url": null,
+                "utc_offset": null,
+                "verified": false,
+                "withheld_in_countries": []
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Sun Jan 03 13:24:03 +0000 2016",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": []
+            },
+            "favorite_count": 2,
+            "favorited": false,
+            "filter_level": "low",
+            "geo": null,
+            "id": 683639964949704704,
+            "id_str": "683639964949704704",
+            "in_reply_to_screen_name": null,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "is_quote_status": false,
+            "lang": "und",
+            "matching_rules": [
+                {
+                    "tag": null
+                }
+            ],
+            "place": null,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+            "text": "Mama \u0107e me malo te\u017ee pustiti da iza\u0111em iz ku\u0107e po ovoj hladno\u0107i, ali jbg ja moram danas nam je ipak mesec dana.",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Wed Dec 25 16:35:35 +0000 2013",
+                "default_profile": false,
+                "default_profile_image": false,
+                "description": null,
+                "favourites_count": 113753,
+                "follow_request_sent": null,
+                "followers_count": 1701,
+                "following": null,
+                "friends_count": 788,
+                "geo_enabled": false,
+                "id": 2261657204,
+                "id_str": "2261657204",
+                "is_translator": false,
+                "lang": null,
+                "listed_count": 4,
+                "location": null,
+                "name": "\u0411\u0443\u0434\u0443\u045b\u0430\u0411\u0438\u0432\u0448\u0430.\u00ae",
+                "notifications": null,
+                "profile_background_color": "00BB77",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": true,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2261657204/1478440625",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/881464967773532160/nkpVItpU_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/881464967773532160/nkpVItpU_normal.jpg",
+                "profile_link_color": "EB1212",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "cole_brate_",
+                "statuses_count": 28775,
+                "time_zone": null,
+                "translator_type": "none",
+                "url": null,
+                "utc_offset": null,
+                "verified": false,
+                "withheld_in_countries": []
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Sun Jan 03 12:53:44 +0000 2016",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": [
+                    {
+                        "id": 828717234000379904,
+                        "id_str": "828717234000379904",
+                        "indices": [
+                            3,
+                            18
+                        ],
+                        "name": "Aleksandra",
+                        "screen_name": "dobropamtimsve"
+                    }
+                ]
+            },
+            "favorite_count": 0,
+            "favorited": false,
+            "filter_level": "low",
+            "geo": null,
+            "id": 683632335347159041,
+            "id_str": "683632335347159041",
+            "in_reply_to_screen_name": null,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "is_quote_status": false,
+            "lang": "und",
+            "matching_rules": [
+                {
+                    "tag": null
+                }
+            ],
+            "place": null,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "retweeted": false,
+            "retweeted_status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Thu Nov 26 20:26:10 +0000 2015",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "urls": [],
+                    "user_mentions": []
+                },
+                "favorite_count": 191,
+                "favorited": false,
+                "filter_level": "low",
+                "geo": null,
+                "id": 669975455076851712,
+                "id_str": "669975455076851712",
+                "in_reply_to_screen_name": null,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "is_quote_status": false,
+                "lang": "und",
+                "place": null,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 12,
+                "retweeted": false,
+                "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+                "text": "Ona: eej\ud83d\ude0a\nOn: ej\ud83d\ude0a\nOna: Je'l ti imas devojku?\ud83d\ude18\nOn: A koja si ti na profilnoj?\ud83d\ude03\nOna: Ona leva\ud83d\ude04\nOn: E jbg ja sam ozenjen!! \n\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02",
+                "truncated": false,
+                "user": {
+                    "contributors_enabled": false,
+                    "created_at": "Sat Jan 31 11:01:41 +0000 2015",
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "description": "bio",
+                    "favourites_count": 35959,
+                    "follow_request_sent": null,
+                    "followers_count": 2154,
+                    "following": null,
+                    "friends_count": 306,
+                    "geo_enabled": false,
+                    "id": 3007413717,
+                    "id_str": "3007413717",
+                    "is_translator": false,
+                    "lang": null,
+                    "listed_count": 3,
+                    "location": "Kur\u0161umlija, Srbija",
+                    "name": "Fabricio",
+                    "notifications": null,
+                    "profile_background_color": "000000",
+                    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_tile": false,
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/3007413717/1573767175",
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/1311751364805091333/ZnGC2MUC_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1311751364805091333/ZnGC2MUC_normal.jpg",
+                    "profile_link_color": "FAB81E",
+                    "profile_sidebar_border_color": "000000",
+                    "profile_sidebar_fill_color": "000000",
+                    "profile_text_color": "000000",
+                    "profile_use_background_image": false,
+                    "protected": false,
+                    "screen_name": "donniedemonD",
+                    "statuses_count": 6759,
+                    "time_zone": null,
+                    "translator_type": "none",
+                    "url": null,
+                    "utc_offset": null,
+                    "verified": false,
+                    "withheld_in_countries": []
+                }
+            },
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+            "text": "RT @Dobropamtimsve: Ona: eej\ud83d\ude0a\nOn: ej\ud83d\ude0a\nOna: Je'l ti imas devojku?\ud83d\ude18\nOn: A koja si ti na profilnoj?\ud83d\ude03\nOna: Ona leva\ud83d\ude04\nOn: E jbg ja sam ozenjen!!\u2026",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Tue Sep 09 12:50:44 +0000 2014",
+                "default_profile": false,
+                "default_profile_image": false,
+                "derived": {
+                    "locations": [
+                        {
+                            "country": "Bosnia and Herzegovina",
+                            "country_code": "BA",
+                            "full_name": "Bosnia and Herzegovina",
+                            "geo": {
+                                "coordinates": [
+                                    17.83333,
+                                    44.25
+                                ],
+                                "type": "point"
+                            }
+                        }
+                    ]
+                },
+                "description": "\u2119\ud835\udd5d\ud835\udd52\ud835\udd5f\ud835\udd60\ud835\udd67\ud835\udd56, \ud835\udd5d\ud835\udd60\ud835\udd5c\ud835\udd52\ud835\udd54\ud835\udd5a\ud835\udd5b\ud835\udd56 \ud835\udd5a \ud835\udd61\ud835\udd63\ud835\udd5a\ud835\udd5b\ud835\udd52\ud835\udd65\ud835\udd56\ud835\udd5d\ud835\udd5b\ud835\udd56 \ud835\udd5f\ud835\udd5a\ud835\udd5c\ud835\udd52\ud835\udd55 \ud835\udd5f\ud835\udd56 \ud835\udd60\ud835\udd55\ud835\udd52\ud835\udd5b\ud835\udd56\ud835\udd5e.",
+                "favourites_count": 18336,
+                "follow_request_sent": null,
+                "followers_count": 331,
+                "following": null,
+                "friends_count": 79,
+                "geo_enabled": true,
+                "id": 2799888829,
+                "id_str": "2799888829",
+                "is_translator": false,
+                "lang": null,
+                "listed_count": 0,
+                "location": "Republika Bosna i Hercegovina",
+                "name": "\u210d_\u210d \ud83e\udd81",
+                "notifications": null,
+                "profile_background_color": "1A1B1F",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": true,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2799888829/1614589576",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1346840975935733768/FWJao1XT_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1346840975935733768/FWJao1XT_normal.jpg",
+                "profile_link_color": "3B94D9",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "000000",
+                "profile_text_color": "000000",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "ZmajOdBosnee",
+                "statuses_count": 6166,
+                "time_zone": null,
+                "translator_type": "none",
+                "url": null,
+                "utc_offset": null,
+                "verified": false,
+                "withheld_in_countries": []
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Sun Jan 03 11:51:51 +0000 2016",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": [
+                    {
+                        "id": 828717234000379904,
+                        "id_str": "828717234000379904",
+                        "indices": [
+                            3,
+                            18
+                        ],
+                        "name": "Aleksandra",
+                        "screen_name": "dobropamtimsve"
+                    }
+                ]
+            },
+            "favorite_count": 0,
+            "favorited": false,
+            "filter_level": "low",
+            "geo": null,
+            "id": 683616760428273665,
+            "id_str": "683616760428273665",
+            "in_reply_to_screen_name": null,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "is_quote_status": false,
+            "lang": "und",
+            "matching_rules": [
+                {
+                    "tag": null
+                }
+            ],
+            "place": null,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "retweeted": false,
+            "retweeted_status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Thu Nov 26 20:26:10 +0000 2015",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "urls": [],
+                    "user_mentions": []
+                },
+                "favorite_count": 191,
+                "favorited": false,
+                "filter_level": "low",
+                "geo": null,
+                "id": 669975455076851712,
+                "id_str": "669975455076851712",
+                "in_reply_to_screen_name": null,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "is_quote_status": false,
+                "lang": "und",
+                "place": null,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 12,
+                "retweeted": false,
+                "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+                "text": "Ona: eej\ud83d\ude0a\nOn: ej\ud83d\ude0a\nOna: Je'l ti imas devojku?\ud83d\ude18\nOn: A koja si ti na profilnoj?\ud83d\ude03\nOna: Ona leva\ud83d\ude04\nOn: E jbg ja sam ozenjen!! \n\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02",
+                "truncated": false,
+                "user": {
+                    "contributors_enabled": false,
+                    "created_at": "Sat Jan 31 11:01:41 +0000 2015",
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "description": "bio",
+                    "favourites_count": 35959,
+                    "follow_request_sent": null,
+                    "followers_count": 2154,
+                    "following": null,
+                    "friends_count": 306,
+                    "geo_enabled": false,
+                    "id": 3007413717,
+                    "id_str": "3007413717",
+                    "is_translator": false,
+                    "lang": null,
+                    "listed_count": 3,
+                    "location": "Kur\u0161umlija, Srbija",
+                    "name": "Fabricio",
+                    "notifications": null,
+                    "profile_background_color": "000000",
+                    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_tile": false,
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/3007413717/1573767175",
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/1311751364805091333/ZnGC2MUC_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1311751364805091333/ZnGC2MUC_normal.jpg",
+                    "profile_link_color": "FAB81E",
+                    "profile_sidebar_border_color": "000000",
+                    "profile_sidebar_fill_color": "000000",
+                    "profile_text_color": "000000",
+                    "profile_use_background_image": false,
+                    "protected": false,
+                    "screen_name": "donniedemonD",
+                    "statuses_count": 6759,
+                    "time_zone": null,
+                    "translator_type": "none",
+                    "url": null,
+                    "utc_offset": null,
+                    "verified": false,
+                    "withheld_in_countries": []
+                }
+            },
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+            "text": "RT @Dobropamtimsve: Ona: eej\ud83d\ude0a\nOn: ej\ud83d\ude0a\nOna: Je'l ti imas devojku?\ud83d\ude18\nOn: A koja si ti na profilnoj?\ud83d\ude03\nOna: Ona leva\ud83d\ude04\nOn: E jbg ja sam ozenjen!!\u2026",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Thu Dec 22 09:06:58 +0000 2011",
+                "default_profile": false,
+                "default_profile_image": false,
+                "description": null,
+                "favourites_count": 40653,
+                "follow_request_sent": null,
+                "followers_count": 771,
+                "following": null,
+                "friends_count": 1614,
+                "geo_enabled": true,
+                "id": 443558080,
+                "id_str": "443558080",
+                "is_translator": false,
+                "lang": null,
+                "listed_count": 5,
+                "location": null,
+                "name": "Brad\u2606nja",
+                "notifications": null,
+                "profile_background_color": "022330",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+                "profile_background_tile": false,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/443558080/1481036540",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/807230709496745987/fMQd0r4T_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/807230709496745987/fMQd0r4T_normal.jpg",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "A8C7F7",
+                "profile_sidebar_fill_color": "C0DFEC",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "DonTrocadisco",
+                "statuses_count": 14026,
+                "time_zone": null,
+                "translator_type": "none",
+                "url": null,
+                "utc_offset": null,
+                "verified": false,
+                "withheld_in_countries": []
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Sat Jan 02 22:59:30 +0000 2016",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": []
+            },
+            "favorite_count": 1,
+            "favorited": false,
+            "filter_level": "low",
+            "geo": null,
+            "id": 683422393927364609,
+            "id_str": "683422393927364609",
+            "in_reply_to_screen_name": null,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "is_quote_status": false,
+            "lang": "und",
+            "matching_rules": [
+                {
+                    "tag": null
+                }
+            ],
+            "place": null,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "text": "Svi mi ka\u017eu da nije dobar za mene,ali jbg ja ba\u0161 ne volim da ih slu\u0161am",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Sat Nov 01 21:05:43 +0000 2014",
+                "default_profile": true,
+                "default_profile_image": false,
+                "derived": {
+                    "locations": [
+                        {
+                            "country": "Montenegro",
+                            "country_code": "ME",
+                            "full_name": "Montenegro",
+                            "geo": {
+                                "coordinates": [
+                                    19.3,
+                                    42.5
+                                ],
+                                "type": "point"
+                            }
+                        }
+                    ]
+                },
+                "description": "\ud83c\udf53",
+                "favourites_count": 19400,
+                "follow_request_sent": null,
+                "followers_count": 468,
+                "following": null,
+                "friends_count": 273,
+                "geo_enabled": true,
+                "id": 2855616281,
+                "id_str": "2855616281",
+                "is_translator": false,
+                "lang": null,
+                "listed_count": 5,
+                "location": "Montenegro",
+                "name": "nela",
+                "notifications": null,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2855616281/1601207684",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1328836386712129537/7WtFYIjb_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1328836386712129537/7WtFYIjb_normal.jpg",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "over_fierce_",
+                "statuses_count": 18706,
+                "time_zone": null,
+                "translator_type": "none",
+                "url": null,
+                "utc_offset": null,
+                "verified": false,
+                "withheld_in_countries": []
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Sat Jan 02 21:51:09 +0000 2016",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": [
+                    {
+                        "id": 2275286377,
+                        "id_str": "2275286377",
+                        "indices": [
+                            0,
+                            11
+                        ],
+                        "name": "\u0160a\u0107ir Sanjoux Intense Poluga zv. Malicija \ud83c\udf39 \u9060\u91ce \u8cb4\u6a39",
+                        "screen_name": "ArminAra23"
+                    }
+                ]
+            },
+            "favorite_count": 0,
+            "favorited": false,
+            "filter_level": "low",
+            "geo": null,
+            "id": 683405192927309824,
+            "id_str": "683405192927309824",
+            "in_reply_to_screen_name": "ArminAra23",
+            "in_reply_to_status_id": 683405043207434244,
+            "in_reply_to_status_id_str": "683405043207434244",
+            "in_reply_to_user_id": 2275286377,
+            "in_reply_to_user_id_str": "2275286377",
+            "is_quote_status": false,
+            "lang": "und",
+            "matching_rules": [
+                {
+                    "tag": null
+                }
+            ],
+            "place": {
+                "attributes": {},
+                "bounding_box": {
+                    "coordinates": [
+                        [
+                            [
+                                15.721783,
+                                42.547133
+                            ],
+                            [
+                                15.721783,
+                                45.276524
+                            ],
+                            [
+                                19.623724,
+                                45.276524
+                            ],
+                            [
+                                19.623724,
+                                42.547133
+                            ]
+                        ]
+                    ],
+                    "type": "Polygon"
+                },
+                "country": "Bosnia and Herzegovina",
+                "country_code": "BA",
+                "full_name": "Bosnia and Herzegovina",
+                "id": "7dc97830ee71b3cb",
+                "name": "Bosnia and Herzegovina",
+                "place_type": "country",
+                "url": "https://api.twitter.com/1.1/geo/id/7dc97830ee71b3cb.json"
+            },
+            "quote_count": 0,
+            "reply_count": 1,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+            "text": "@ArminAra23 slim konza \ud83d\ude01 jbg, ja trpim hladno\u0107u \ud83d\ude02\ud83d\ude02\ud83d\ude0e",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Thu Jul 03 00:01:36 +0000 2014",
+                "default_profile": false,
+                "default_profile_image": false,
+                "description": "https://www.twitch.tv/anarkiii",
+                "favourites_count": 4754,
+                "follow_request_sent": null,
+                "followers_count": 137,
+                "following": null,
+                "friends_count": 182,
+                "geo_enabled": true,
+                "id": 2600691709,
+                "id_str": "2600691709",
+                "is_translator": false,
+                "lang": null,
+                "listed_count": 2,
+                "location": "Sarajevo",
+                "name": "Nermin",
+                "notifications": null,
+                "profile_background_color": "870505",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/682167032348016641/JYvENb7i_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/682167032348016641/JYvENb7i_normal.jpg",
+                "profile_link_color": "7A0404",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "anarkiii7",
+                "statuses_count": 3318,
+                "time_zone": null,
+                "translator_type": "none",
+                "url": null,
+                "utc_offset": null,
+                "verified": false,
+                "withheld_in_countries": []
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Sat Jan 02 21:19:06 +0000 2016",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": [
+                    {
+                        "id": 828717234000379904,
+                        "id_str": "828717234000379904",
+                        "indices": [
+                            3,
+                            18
+                        ],
+                        "name": "Aleksandra",
+                        "screen_name": "dobropamtimsve"
+                    }
+                ]
+            },
+            "favorite_count": 0,
+            "favorited": false,
+            "filter_level": "low",
+            "geo": null,
+            "id": 683397126886453249,
+            "id_str": "683397126886453249",
+            "in_reply_to_screen_name": null,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "is_quote_status": false,
+            "lang": "und",
+            "matching_rules": [
+                {
+                    "tag": null
+                }
+            ],
+            "place": null,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "retweeted": false,
+            "retweeted_status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Thu Nov 26 20:26:10 +0000 2015",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "urls": [],
+                    "user_mentions": []
+                },
+                "favorite_count": 191,
+                "favorited": false,
+                "filter_level": "low",
+                "geo": null,
+                "id": 669975455076851712,
+                "id_str": "669975455076851712",
+                "in_reply_to_screen_name": null,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "is_quote_status": false,
+                "lang": "und",
+                "place": null,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 12,
+                "retweeted": false,
+                "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+                "text": "Ona: eej\ud83d\ude0a\nOn: ej\ud83d\ude0a\nOna: Je'l ti imas devojku?\ud83d\ude18\nOn: A koja si ti na profilnoj?\ud83d\ude03\nOna: Ona leva\ud83d\ude04\nOn: E jbg ja sam ozenjen!! \n\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02",
+                "truncated": false,
+                "user": {
+                    "contributors_enabled": false,
+                    "created_at": "Sat Jan 31 11:01:41 +0000 2015",
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "description": "bio",
+                    "favourites_count": 35959,
+                    "follow_request_sent": null,
+                    "followers_count": 2154,
+                    "following": null,
+                    "friends_count": 306,
+                    "geo_enabled": false,
+                    "id": 3007413717,
+                    "id_str": "3007413717",
+                    "is_translator": false,
+                    "lang": null,
+                    "listed_count": 3,
+                    "location": "Kur\u0161umlija, Srbija",
+                    "name": "Fabricio",
+                    "notifications": null,
+                    "profile_background_color": "000000",
+                    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_tile": false,
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/3007413717/1573767175",
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/1311751364805091333/ZnGC2MUC_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1311751364805091333/ZnGC2MUC_normal.jpg",
+                    "profile_link_color": "FAB81E",
+                    "profile_sidebar_border_color": "000000",
+                    "profile_sidebar_fill_color": "000000",
+                    "profile_text_color": "000000",
+                    "profile_use_background_image": false,
+                    "protected": false,
+                    "screen_name": "donniedemonD",
+                    "statuses_count": 6759,
+                    "time_zone": null,
+                    "translator_type": "none",
+                    "url": null,
+                    "utc_offset": null,
+                    "verified": false,
+                    "withheld_in_countries": []
+                }
+            },
+            "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+            "text": "RT @Dobropamtimsve: Ona: eej\ud83d\ude0a\nOn: ej\ud83d\ude0a\nOna: Je'l ti imas devojku?\ud83d\ude18\nOn: A koja si ti na profilnoj?\ud83d\ude03\nOna: Ona leva\ud83d\ude04\nOn: E jbg ja sam ozenjen!!\u2026",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Thu Nov 08 01:57:01 +0000 2012",
+                "default_profile": false,
+                "default_profile_image": false,
+                "description": null,
+                "favourites_count": 115972,
+                "follow_request_sent": null,
+                "followers_count": 749,
+                "following": null,
+                "friends_count": 379,
+                "geo_enabled": false,
+                "id": 933421813,
+                "id_str": "933421813",
+                "is_translator": false,
+                "lang": null,
+                "listed_count": 8,
+                "location": null,
+                "name": "Petar Sucevic",
+                "notifications": null,
+                "profile_background_color": "1A1B1F",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+                "profile_background_tile": false,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/933421813/1416354323",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/514203200828616704/Wg3qnwat_normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/514203200828616704/Wg3qnwat_normal.jpeg",
+                "profile_link_color": "1B95E0",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "000000",
+                "profile_text_color": "000000",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "PetarSucevic",
+                "statuses_count": 40615,
+                "time_zone": null,
+                "translator_type": "regular",
+                "url": null,
+                "utc_offset": null,
+                "verified": false,
+                "withheld_in_countries": []
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Sat Jan 02 19:38:03 +0000 2016",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": []
+            },
+            "favorite_count": 5,
+            "favorited": false,
+            "filter_level": "low",
+            "geo": null,
+            "id": 683371696913526784,
+            "id_str": "683371696913526784",
+            "in_reply_to_screen_name": null,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "is_quote_status": false,
+            "lang": "und",
+            "matching_rules": [
+                {
+                    "tag": null
+                }
+            ],
+            "place": null,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 1,
+            "retweeted": false,
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+            "text": "\"Jedem sad, pa kad jedem javi\u0107u ti se\"\n*7 dana kasnije*\n\"\u0160to me nisi zvao??\"\n\"E jbg ja zaboravio\"",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Mon Jan 06 00:50:29 +0000 2014",
+                "default_profile": false,
+                "default_profile_image": false,
+                "derived": {
+                    "locations": [
+                        {
+                            "country": "France",
+                            "country_code": "FR",
+                            "full_name": "Languedoc-Roussillon, France",
+                            "geo": {
+                                "coordinates": [
+                                    3.16667,
+                                    43.66667
+                                ],
+                                "type": "point"
+                            },
+                            "region": "Languedoc-Roussillon"
+                        }
+                    ]
+                },
+                "description": "Blas\u00e9\nNisam spreman nemojte molim vas",
+                "favourites_count": 307650,
+                "follow_request_sent": null,
+                "followers_count": 9064,
+                "following": null,
+                "friends_count": 673,
+                "geo_enabled": false,
+                "id": 2264499059,
+                "id_str": "2264499059",
+                "is_translator": false,
+                "lang": null,
+                "listed_count": 47,
+                "location": "Languedoc, France",
+                "name": "\ud83d\udd0cKablovi\ud83d\udd0c",
+                "notifications": null,
+                "profile_background_color": "EBEBEB",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme7/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme7/bg.gif",
+                "profile_background_tile": false,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2264499059/1575652251",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1311139140789063681/St52MNi2_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1311139140789063681/St52MNi2_normal.jpg",
+                "profile_link_color": "006400",
+                "profile_sidebar_border_color": "DFDFDF",
+                "profile_sidebar_fill_color": "F3F3F3",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "hohadler",
+                "statuses_count": 225762,
+                "time_zone": null,
+                "translator_type": "regular",
+                "url": "https://www.twitch.tv/labidian",
+                "utc_offset": null,
+                "verified": false,
+                "withheld_in_countries": []
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Sat Jan 02 19:25:51 +0000 2016",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": [
+                    {
+                        "id": 596657288,
+                        "id_str": "596657288",
+                        "indices": [
+                            0,
+                            12
+                        ],
+                        "name": "Stevan Dojcinovic",
+                        "screen_name": "StevanOCCRP"
+                    },
+                    {
+                        "id": 3137188191,
+                        "id_str": "3137188191",
+                        "indices": [
+                            13,
+                            25
+                        ],
+                        "name": "Ne davimo Beograd",
+                        "screen_name": "nedavimobgd"
+                    }
+                ]
+            },
+            "favorite_count": 1,
+            "favorited": false,
+            "filter_level": "low",
+            "geo": null,
+            "id": 683368626326495232,
+            "id_str": "683368626326495232",
+            "in_reply_to_screen_name": "StevanOCCRP",
+            "in_reply_to_status_id": 683307891906998273,
+            "in_reply_to_status_id_str": "683307891906998273",
+            "in_reply_to_user_id": 596657288,
+            "in_reply_to_user_id_str": "596657288",
+            "is_quote_status": false,
+            "lang": "und",
+            "matching_rules": [
+                {
+                    "tag": null
+                }
+            ],
+            "place": null,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+            "text": "@StevanOCCRP @nedavimobgd jbg ja glasao da ne verujem Malom, a ono drugi kontext.",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Fri Apr 22 12:22:05 +0000 2011",
+                "default_profile": false,
+                "default_profile_image": false,
+                "derived": {
+                    "locations": [
+                        {
+                            "country": "Serbia",
+                            "country_code": "RS",
+                            "full_name": "Vrnja\u010dka Banja, Central Serbia, Serbia",
+                            "geo": {
+                                "coordinates": [
+                                    20.89634,
+                                    43.62725
+                                ],
+                                "type": "point"
+                            },
+                            "locality": "Vrnja\u010dka Banja",
+                            "region": "Central Serbia",
+                            "sub_region": "Ra\u0161ki Okrug"
+                        }
+                    ]
+                },
+                "description": "Voli , Tanju, Maksima, Konstantina, prirodu, skijanje, tenis.Demokrata. P\u010delar. Ov\u010dar.",
+                "favourites_count": 2708,
+                "follow_request_sent": null,
+                "followers_count": 652,
+                "following": null,
+                "friends_count": 1764,
+                "geo_enabled": true,
+                "id": 286137466,
+                "id_str": "286137466",
+                "is_translator": false,
+                "lang": null,
+                "listed_count": 10,
+                "location": "Vrnjacka Banja",
+                "name": "Goran Arsic",
+                "notifications": null,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": true,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/286137466/1616359471",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1373738264344064005/JQZQpe___normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1373738264344064005/JQZQpe___normal.jpg",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "Arsici",
+                "statuses_count": 13073,
+                "time_zone": null,
+                "translator_type": "none",
+                "url": null,
+                "utc_offset": null,
+                "verified": false,
+                "withheld_in_countries": []
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Sat Jan 02 11:15:17 +0000 2016",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": [
+                    {
+                        "id": 600912295,
+                        "id_str": "600912295",
+                        "indices": [
+                            0,
+                            12
+                        ],
+                        "name": "Belai Lama",
+                        "screen_name": "ZeljkoKelec"
+                    }
+                ]
+            },
+            "favorite_count": 1,
+            "favorited": false,
+            "filter_level": "low",
+            "geo": null,
+            "id": 683245169634873344,
+            "id_str": "683245169634873344",
+            "in_reply_to_screen_name": "ZeljkoKelec",
+            "in_reply_to_status_id": 683245087439097856,
+            "in_reply_to_status_id_str": "683245087439097856",
+            "in_reply_to_user_id": 600912295,
+            "in_reply_to_user_id_str": "600912295",
+            "is_quote_status": false,
+            "lang": "und",
+            "matching_rules": [
+                {
+                    "tag": null
+                }
+            ],
+            "place": null,
+            "quote_count": 0,
+            "reply_count": 1,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+            "text": "@ZeljkoKelec jbg,ja danas farbala jaja,znala sam da sam se zaebala",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Wed Jul 20 17:48:34 +0000 2011",
+                "default_profile": false,
+                "default_profile_image": false,
+                "description": "persona non gratis",
+                "favourites_count": 164859,
+                "follow_request_sent": null,
+                "followers_count": 2817,
+                "following": null,
+                "friends_count": 254,
+                "geo_enabled": false,
+                "id": 339165362,
+                "id_str": "339165362",
+                "is_translator": false,
+                "lang": null,
+                "listed_count": 19,
+                "location": "unuka od @justBoske",
+                "name": "Mara Ford",
+                "notifications": null,
+                "profile_background_color": "59BEE4",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme10/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme10/bg.gif",
+                "profile_background_tile": true,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/339165362/1444330603",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/812960378766368768/a6a516Zq_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/812960378766368768/a6a516Zq_normal.jpg",
+                "profile_link_color": "FA743E",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "191F22",
+                "profile_text_color": "4BB7DF",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "Mahodari_Mara",
+                "statuses_count": 218544,
+                "time_zone": null,
+                "translator_type": "none",
+                "url": null,
+                "utc_offset": null,
+                "verified": false,
+                "withheld_in_countries": []
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Sat Jan 02 08:29:53 +0000 2016",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": []
+            },
+            "favorite_count": 0,
+            "favorited": false,
+            "filter_level": "low",
+            "geo": null,
+            "id": 683203545848504320,
+            "id_str": "683203545848504320",
+            "in_reply_to_screen_name": null,
+            "in_reply_to_status_id": 683202949175193600,
+            "in_reply_to_status_id_str": "683202949175193600",
+            "in_reply_to_user_id": 1022023501,
+            "in_reply_to_user_id_str": "1022023501",
+            "is_quote_status": false,
+            "lang": "und",
+            "matching_rules": [
+                {
+                    "tag": null
+                }
+            ],
+            "place": null,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "@8sekretarSKOJA Pa da evo sasam otvorio novo pivo jbg ja sam no\u0107a\u0161nji pa mi se mo\u017ee opravdano",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Fri Nov 30 23:29:31 +0000 2012",
+                "default_profile": false,
+                "default_profile_image": false,
+                "description": "Ave ! I'm The KING of Twitter",
+                "favourites_count": 125906,
+                "follow_request_sent": null,
+                "followers_count": 9621,
+                "following": null,
+                "friends_count": 1929,
+                "geo_enabled": true,
+                "id": 981438462,
+                "id_str": "981438462",
+                "is_translator": false,
+                "lang": null,
+                "listed_count": 65,
+                "location": null,
+                "name": "King VIII",
+                "notifications": null,
+                "profile_background_color": "352726",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme5/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme5/bg.gif",
+                "profile_background_tile": false,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/981438462/1433564073",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/780477101786955776/yyDq9mjd_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/780477101786955776/yyDq9mjd_normal.jpg",
+                "profile_link_color": "0A0103",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "zajebanimachor",
+                "statuses_count": 159410,
+                "time_zone": null,
+                "translator_type": "none",
+                "url": null,
+                "utc_offset": null,
+                "verified": false,
+                "withheld_in_countries": []
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Fri Jan 01 23:11:34 +0000 2016",
+            "entities": {
+                "hashtags": [
+                    {
+                        "indices": [
+                            47,
+                            68
+                        ],
+                        "text": "JamaicaBroilersGroup"
+                    },
+                    {
+                        "indices": [
+                            69,
+                            77
+                        ],
+                        "text": "Jamaica"
+                    },
+                    {
+                        "indices": [
+                            78,
+                            96
+                        ],
+                        "text": "TacticalStrategic"
+                    },
+                    {
+                        "indices": [
+                            97,
+                            104
+                        ],
+                        "text": "Report"
+                    },
+                    {
+                        "indices": [
+                            105,
+                            115
+                        ],
+                        "text": "Corporate"
+                    },
+                    {
+                        "indices": [
+                            116,
+                            123
+                        ],
+                        "text": "Profit"
+                    },
+                    {
+                        "indices": [
+                            124,
+                            129
+                        ],
+                        "text": "Loss"
+                    }
+                ],
+                "symbols": [],
+                "urls": [
+                    {
+                        "display_url": "dg-di.cn/DG/16/1223.htm",
+                        "expanded_url": "http://dg-di.cn/DG/16/1223.htm",
+                        "indices": [
+                            23,
+                            46
+                        ],
+                        "unwound": {
+                            "description": null,
+                            "status": null,
+                            "title": null,
+                            "url": null
+                        },
+                        "url": "https://t.co/X5oDSQra05"
+                    }
+                ],
+                "user_mentions": []
+            },
+            "favorite_count": 0,
+            "favorited": false,
+            "filter_level": "low",
+            "geo": null,
+            "id": 683063042393948162,
+            "id_str": "683063042393948162",
+            "in_reply_to_screen_name": null,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "is_quote_status": false,
+            "lang": "fr",
+            "matching_rules": [
+                {
+                    "tag": null
+                }
+            ],
+            "place": null,
+            "possibly_sensitive": false,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"http://www.datagroup.asia\" rel=\"nofollow\">DataGroupAsia</a>",
+            "text": "Jamaica Broilers Group https://t.co/X5oDSQra05 #JamaicaBroilersGroup #Jamaica #TacticalStrategic #Report #Corporate #Profit #Loss",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Sun Feb 22 15:07:51 +0000 2015",
+                "default_profile": false,
+                "default_profile_image": false,
+                "derived": {
+                    "locations": [
+                        {
+                            "country": "Hong Kong",
+                            "country_code": "HK",
+                            "full_name": "Hong Kong Special Administrative Region, Hong Kong",
+                            "geo": {
+                                "coordinates": [
+                                    114.16667,
+                                    22.25
+                                ],
+                                "type": "point"
+                            },
+                            "locality": "Hong Kong Special Administrative Region"
+                        }
+                    ]
+                },
+                "description": "The World's largest source of Corporate and Market Intelligence.",
+                "favourites_count": 0,
+                "follow_request_sent": null,
+                "followers_count": 1180,
+                "following": null,
+                "friends_count": 631,
+                "geo_enabled": false,
+                "id": 3052887695,
+                "id_str": "3052887695",
+                "is_translator": false,
+                "lang": null,
+                "listed_count": 1212,
+                "location": "Hong Kong",
+                "name": "DataGroup Asia",
+                "notifications": null,
+                "profile_background_color": "FFFFFF",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": true,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/3052887695/1432196460",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/569517751996149760/gfmEcrh2_normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/569517751996149760/gfmEcrh2_normal.jpeg",
+                "profile_link_color": "730021",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "DataGroupAsia",
+                "statuses_count": 185793,
+                "time_zone": null,
+                "translator_type": "none",
+                "url": "http://www.datagroup.asia",
+                "utc_offset": null,
+                "verified": false,
+                "withheld_in_countries": []
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Fri Jan 01 16:34:07 +0000 2016",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [
+                    {
+                        "display_url": "tinyurl.com/j6meoxg",
+                        "expanded_url": "http://tinyurl.com/j6meoxg",
+                        "indices": [
+                            54,
+                            77
+                        ],
+                        "unwound": {
+                            "description": null,
+                            "status": null,
+                            "title": null,
+                            "url": null
+                        },
+                        "url": "https://t.co/ayqRFZsDMu"
+                    }
+                ],
+                "user_mentions": [
+                    {
+                        "id": 40954616,
+                        "id_str": "40954616",
+                        "indices": [
+                            3,
+                            18
+                        ],
+                        "name": "Jamaica Gleaner",
+                        "screen_name": "JamaicaGleaner"
+                    }
+                ]
+            },
+            "favorite_count": 0,
+            "favorited": false,
+            "filter_level": "low",
+            "geo": null,
+            "id": 682963018578300929,
+            "id_str": "682963018578300929",
+            "in_reply_to_screen_name": null,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "is_quote_status": false,
+            "lang": "en",
+            "matching_rules": [
+                {
+                    "tag": null
+                }
+            ],
+            "place": null,
+            "possibly_sensitive": false,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "retweeted": false,
+            "retweeted_status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Fri Jan 01 05:31:41 +0000 2016",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "urls": [
+                        {
+                            "display_url": "tinyurl.com/j6meoxg",
+                            "expanded_url": "http://tinyurl.com/j6meoxg",
+                            "indices": [
+                                34,
+                                57
+                            ],
+                            "unwound": {
+                                "description": null,
+                                "status": null,
+                                "title": null,
+                                "url": null
+                            },
+                            "url": "https://t.co/ayqRFZsDMu"
+                        }
+                    ],
+                    "user_mentions": []
+                },
+                "favorite_count": 1,
+                "favorited": false,
+                "filter_level": "low",
+                "geo": null,
+                "id": 682796312207609856,
+                "id_str": "682796312207609856",
+                "in_reply_to_screen_name": null,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "is_quote_status": false,
+                "lang": "en",
+                "place": null,
+                "possibly_sensitive": false,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 1,
+                "retweeted": false,
+                "source": "<a href=\"http://twitterfeed.com\" rel=\"nofollow\">twitterfeed</a>",
+                "text": "Jamaica Broilers team plays santa https://t.co/ayqRFZsDMu",
+                "truncated": false,
+                "user": {
+                    "contributors_enabled": false,
+                    "created_at": "Mon May 18 20:04:59 +0000 2009",
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "description": "Jamaica's most trusted news source for 186 years. Where life unfolds. Follow for news, sports, business, lifestyle, entertainment and commentary.",
+                    "favourites_count": 193,
+                    "follow_request_sent": null,
+                    "followers_count": 309034,
+                    "following": null,
+                    "friends_count": 608,
+                    "geo_enabled": true,
+                    "id": 40954616,
+                    "id_str": "40954616",
+                    "is_translator": false,
+                    "lang": null,
+                    "listed_count": 1352,
+                    "location": "Jamaica",
+                    "name": "Jamaica Gleaner",
+                    "notifications": null,
+                    "profile_background_color": "1A1B1F",
+                    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_tile": false,
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/40954616/1599357111",
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/1335913296541732864/LM6ajb_N_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1335913296541732864/LM6ajb_N_normal.jpg",
+                    "profile_link_color": "2FC2EF",
+                    "profile_sidebar_border_color": "FFFFFF",
+                    "profile_sidebar_fill_color": "FAFAFA",
+                    "profile_text_color": "333333",
+                    "profile_use_background_image": true,
+                    "protected": false,
+                    "screen_name": "JamaicaGleaner",
+                    "statuses_count": 163280,
+                    "time_zone": null,
+                    "translator_type": "none",
+                    "url": "http://www.jamaica-gleaner.com",
+                    "utc_offset": null,
+                    "verified": false,
+                    "withheld_in_countries": []
+                }
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "text": "RT @JamaicaGleaner: Jamaica Broilers team plays santa https://t.co/ayqRFZsDMu",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Thu Feb 05 17:05:06 +0000 2009",
+                "default_profile": false,
+                "default_profile_image": false,
+                "description": "Impromptu Party & productivity specialist #MOCHMICH\u262e Vendor 4MCLOTH\ud83d\udca8 Artist Development  SUPPORTBREEDSUPPORT\u270a\ud83c\udffd",
+                "favourites_count": 30010,
+                "follow_request_sent": null,
+                "followers_count": 541,
+                "following": null,
+                "friends_count": 467,
+                "geo_enabled": false,
+                "id": 20164697,
+                "id_str": "20164697",
+                "is_translator": false,
+                "lang": null,
+                "listed_count": 34,
+                "location": "SWAMP-LAND, NEW JERUZ Hi",
+                "name": "UnLearn2Learn 4MCLOTH\ud83d\udca8",
+                "notifications": null,
+                "profile_background_color": "1A1B1F",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+                "profile_background_tile": false,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/20164697/1551902748",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/855122128873689089/5owU21_C_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/855122128873689089/5owU21_C_normal.jpg",
+                "profile_link_color": "2FC2EF",
+                "profile_sidebar_border_color": "181A1E",
+                "profile_sidebar_fill_color": "252429",
+                "profile_text_color": "666666",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "FACEPROMOTIONZ",
+                "statuses_count": 43947,
+                "time_zone": null,
+                "translator_type": "none",
+                "url": null,
+                "utc_offset": null,
+                "verified": false,
+                "withheld_in_countries": []
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Fri Jan 01 05:31:41 +0000 2016",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [
+                    {
+                        "display_url": "tinyurl.com/j6meoxg",
+                        "expanded_url": "http://tinyurl.com/j6meoxg",
+                        "indices": [
+                            34,
+                            57
+                        ],
+                        "unwound": {
+                            "description": null,
+                            "status": null,
+                            "title": null,
+                            "url": null
+                        },
+                        "url": "https://t.co/ayqRFZsDMu"
+                    }
+                ],
+                "user_mentions": []
+            },
+            "favorite_count": 1,
+            "favorited": false,
+            "filter_level": "low",
+            "geo": null,
+            "id": 682796312207609856,
+            "id_str": "682796312207609856",
+            "in_reply_to_screen_name": null,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "is_quote_status": false,
+            "lang": "en",
+            "matching_rules": [
+                {
+                    "tag": null
+                }
+            ],
+            "place": null,
+            "possibly_sensitive": false,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 1,
+            "retweeted": false,
+            "source": "<a href=\"http://twitterfeed.com\" rel=\"nofollow\">twitterfeed</a>",
+            "text": "Jamaica Broilers team plays santa https://t.co/ayqRFZsDMu",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Mon May 18 20:04:59 +0000 2009",
+                "default_profile": false,
+                "default_profile_image": false,
+                "derived": {
+                    "locations": [
+                        {
+                            "country": "Jamaica",
+                            "country_code": "JM",
+                            "full_name": "Jamaica",
+                            "geo": {
+                                "coordinates": [
+                                    -77.5,
+                                    18.25
+                                ],
+                                "type": "point"
+                            }
+                        }
+                    ]
+                },
+                "description": "Jamaica's most trusted news source for 186 years. Where life unfolds. Follow for news, sports, business, lifestyle, entertainment and commentary.",
+                "favourites_count": 193,
+                "follow_request_sent": null,
+                "followers_count": 309034,
+                "following": null,
+                "friends_count": 608,
+                "geo_enabled": true,
+                "id": 40954616,
+                "id_str": "40954616",
+                "is_translator": false,
+                "lang": null,
+                "listed_count": 1352,
+                "location": "Jamaica",
+                "name": "Jamaica Gleaner",
+                "notifications": null,
+                "profile_background_color": "1A1B1F",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/40954616/1599357111",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1335913296541732864/LM6ajb_N_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1335913296541732864/LM6ajb_N_normal.jpg",
+                "profile_link_color": "2FC2EF",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "FAFAFA",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "JamaicaGleaner",
+                "statuses_count": 163280,
+                "time_zone": null,
+                "translator_type": "none",
+                "url": "http://www.jamaica-gleaner.com",
+                "utc_offset": null,
+                "verified": false,
+                "withheld_in_countries": []
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Fri Jan 01 00:34:07 +0000 2016",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": [
+                    {
+                        "id": 1501490154,
+                        "id_str": "1501490154",
+                        "indices": [
+                            0,
+                            11
+                        ],
+                        "name": "Brankica iz op\u0161tine",
+                        "screen_name": "BJCalamity"
+                    },
+                    {
+                        "id": 1539515707,
+                        "id_str": "1539515707",
+                        "indices": [
+                            89,
+                            96
+                        ],
+                        "name": "U\u017ei\u010dkaRepublika",
+                        "screen_name": "gjesic"
+                    }
+                ]
+            },
+            "favorite_count": 1,
+            "favorited": false,
+            "filter_level": "low",
+            "geo": null,
+            "id": 682721427498340352,
+            "id_str": "682721427498340352",
+            "in_reply_to_screen_name": "BJCalamity",
+            "in_reply_to_status_id": 682721113324040193,
+            "in_reply_to_status_id_str": "682721113324040193",
+            "in_reply_to_user_id": 1501490154,
+            "in_reply_to_user_id_str": "1501490154",
+            "is_quote_status": false,
+            "lang": "und",
+            "matching_rules": [
+                {
+                    "tag": null
+                }
+            ],
+            "place": null,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "@BJCalamity jbg,ja vecito kontiram lajni,nikako da uhvatim talas,mutiraj,razuma ti: :))) @gjesic",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Fri May 16 20:06:37 +0000 2014",
+                "default_profile": true,
+                "default_profile_image": false,
+                "description": null,
+                "favourites_count": 70416,
+                "follow_request_sent": null,
+                "followers_count": 1663,
+                "following": null,
+                "friends_count": 767,
+                "geo_enabled": true,
+                "id": 2499788000,
+                "id_str": "2499788000",
+                "is_translator": false,
+                "lang": null,
+                "listed_count": 20,
+                "location": null,
+                "name": "#SerbiaFloods",
+                "notifications": null,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2499788000/1404518714",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/514490899930578944/tbkiPbh__normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/514490899930578944/tbkiPbh__normal.jpeg",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "Smrdulence",
+                "statuses_count": 43068,
+                "time_zone": null,
+                "translator_type": "none",
+                "url": null,
+                "utc_offset": null,
+                "verified": false,
+                "withheld_in_countries": []
+            }
+        }
+    ]
+}

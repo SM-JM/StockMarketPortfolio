@@ -1,3 +1,10 @@
+####################################################################
+# Author:       Shane Miller
+# Course:       COMP6830 Data Science Capstone Project II
+# Purpose:      To provide HTTP routing paths for the application
+####################################################################
+
+
 from flask 			import Blueprint, render_template, request
 from flask 			import current_app as app
 from bokeh.plotting import figure, output_file, show
@@ -69,15 +76,12 @@ def priceChangeSubmit():
 		def nearest(items, pivot):
 			return min(items, key=lambda x: abs(x - pivot))
 		
+		## Ensure that the closest date is returned
 		if (pStartDate not in dateList):
 			pStartDate = nearest(dateList, pStartDate)
 		if (pEndDate not in dateList):
 			pEndDate = nearest(dateList, pEndDate)
 
-			#pReturn = "Error, no trades done on both dates indicated."
-		#else:
-		print("[{}] startDate".format(pStartDate))
-		print("[{}] endDate".format(pEndDate))
 		## Get the startPrice and endPrice as a single value
 		startPrice = (df.loc[df.Date==pStartDate,["Close_Price"]]["Close_Price"].tolist())[0]
 		endPrice   = (df.loc[df.Date==pEndDate,  ["Close_Price"]]["Close_Price"].tolist())[0]

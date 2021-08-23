@@ -1,0 +1,302 @@
+{
+    "requestParameters": {
+        "fromDate": "202012310001",
+        "maxResults": 100,
+        "toDate": "202101010000"
+    },
+    "results": [
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Thu Dec 31 17:07:37 +0000 2020",
+            "display_text_range": [
+                12,
+                44
+            ],
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": [
+                    {
+                        "id": 900582997,
+                        "id_str": "900582997",
+                        "indices": [
+                            0,
+                            11
+                        ],
+                        "name": "JS Osiris",
+                        "screen_name": "King_Scxtt"
+                    }
+                ]
+            },
+            "favorite_count": 1,
+            "favorited": false,
+            "filter_level": "low",
+            "geo": null,
+            "id": 1344691693543714824,
+            "id_str": "1344691693543714824",
+            "in_reply_to_screen_name": "King_Scxtt",
+            "in_reply_to_status_id": 1344691529982631936,
+            "in_reply_to_status_id_str": "1344691529982631936",
+            "in_reply_to_user_id": 900582997,
+            "in_reply_to_user_id_str": "900582997",
+            "is_quote_status": false,
+            "lang": "en",
+            "matching_rules": [
+                {
+                    "tag": null
+                }
+            ],
+            "place": null,
+            "quote_count": 0,
+            "reply_count": 1,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "text": "@King_Scxtt That\u2019s why mi buy Carib Cement \ud83d\ude02",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Mon May 02 02:55:08 +0000 2011",
+                "default_profile": false,
+                "default_profile_image": false,
+                "description": "I do Entertainment #DonPedroRecords + @TannedJA + @BamBamEvent. UWI, Mona. IG: iRealPedro || @ManUtd @Vybz_Kartel Skillibeng stan account. \ud83c\uddef\ud83c\uddf2. #GazaNation",
+                "favourites_count": 13607,
+                "follow_request_sent": null,
+                "followers_count": 8928,
+                "following": null,
+                "friends_count": 1438,
+                "geo_enabled": true,
+                "id": 291479786,
+                "id_str": "291479786",
+                "is_translator": false,
+                "lang": null,
+                "listed_count": 42,
+                "location": "Pon Di Gaza Til' Death",
+                "name": "Juan Pedrito",
+                "notifications": null,
+                "profile_background_color": "F5C020",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+                "profile_background_tile": true,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/291479786/1591667933",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1361142357081661441/Y6Dz9X4X_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1361142357081661441/Y6Dz9X4X_normal.jpg",
+                "profile_link_color": "3B94D9",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "74258A",
+                "profile_text_color": "F9EE18",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "iRealPedro",
+                "statuses_count": 373723,
+                "time_zone": null,
+                "translator_type": "none",
+                "url": "http://www.instagram.com/irealpedro/",
+                "utc_offset": null,
+                "verified": false
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Thu Dec 31 15:00:45 +0000 2020",
+            "display_text_range": [
+                0,
+                140
+            ],
+            "entities": {
+                "hashtags": [
+                    {
+                        "indices": [
+                            101,
+                            113
+                        ],
+                        "text": "CaribCement"
+                    }
+                ],
+                "symbols": [],
+                "urls": [
+                    {
+                        "display_url": "twitter.com/i/web/status/1\u2026",
+                        "expanded_url": "https://twitter.com/i/web/status/1344659767436963841",
+                        "indices": [
+                            117,
+                            140
+                        ],
+                        "url": "https://t.co/R5hWIkNKoo"
+                    }
+                ],
+                "user_mentions": []
+            },
+            "extended_tweet": {
+                "display_text_range": [
+                    0,
+                    119
+                ],
+                "entities": {
+                    "hashtags": [
+                        {
+                            "indices": [
+                                101,
+                                113
+                            ],
+                            "text": "CaribCement"
+                        }
+                    ],
+                    "media": [
+                        {
+                            "display_url": "pic.twitter.com/TFmDNoqyF0",
+                            "expanded_url": "https://twitter.com/caribcementja/status/1344659767436963841/photo/1",
+                            "id": 1344659763972468743,
+                            "id_str": "1344659763972468743",
+                            "indices": [
+                                120,
+                                143
+                            ],
+                            "media_url": "http://pbs.twimg.com/media/Eqkw7ldW8AcuHCC.jpg",
+                            "media_url_https": "https://pbs.twimg.com/media/Eqkw7ldW8AcuHCC.jpg",
+                            "sizes": {
+                                "large": {
+                                    "h": 1800,
+                                    "resize": "fit",
+                                    "w": 1800
+                                },
+                                "medium": {
+                                    "h": 1200,
+                                    "resize": "fit",
+                                    "w": 1200
+                                },
+                                "small": {
+                                    "h": 680,
+                                    "resize": "fit",
+                                    "w": 680
+                                },
+                                "thumb": {
+                                    "h": 150,
+                                    "resize": "crop",
+                                    "w": 150
+                                }
+                            },
+                            "type": "photo",
+                            "url": "https://t.co/TFmDNoqyF0"
+                        }
+                    ],
+                    "symbols": [],
+                    "urls": [],
+                    "user_mentions": []
+                },
+                "extended_entities": {
+                    "media": [
+                        {
+                            "display_url": "pic.twitter.com/TFmDNoqyF0",
+                            "expanded_url": "https://twitter.com/caribcementja/status/1344659767436963841/photo/1",
+                            "id": 1344659763972468743,
+                            "id_str": "1344659763972468743",
+                            "indices": [
+                                120,
+                                143
+                            ],
+                            "media_url": "http://pbs.twimg.com/media/Eqkw7ldW8AcuHCC.jpg",
+                            "media_url_https": "https://pbs.twimg.com/media/Eqkw7ldW8AcuHCC.jpg",
+                            "sizes": {
+                                "large": {
+                                    "h": 1800,
+                                    "resize": "fit",
+                                    "w": 1800
+                                },
+                                "medium": {
+                                    "h": 1200,
+                                    "resize": "fit",
+                                    "w": 1200
+                                },
+                                "small": {
+                                    "h": 680,
+                                    "resize": "fit",
+                                    "w": 680
+                                },
+                                "thumb": {
+                                    "h": 150,
+                                    "resize": "crop",
+                                    "w": 150
+                                }
+                            },
+                            "type": "photo",
+                            "url": "https://t.co/TFmDNoqyF0"
+                        }
+                    ]
+                },
+                "full_text": "Happy New Year from all of us at Carib Cement! Let us  continue to build a greater Jamaica together! #CaribCement #2021 https://t.co/TFmDNoqyF0"
+            },
+            "favorite_count": 0,
+            "favorited": false,
+            "filter_level": "low",
+            "geo": null,
+            "id": 1344659767436963841,
+            "id_str": "1344659767436963841",
+            "in_reply_to_screen_name": null,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "is_quote_status": false,
+            "lang": "en",
+            "matching_rules": [
+                {
+                    "tag": null
+                }
+            ],
+            "place": null,
+            "possibly_sensitive": false,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"https://www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.</a>",
+            "text": "Happy New Year from all of us at Carib Cement! Let us  continue to build a greater Jamaica together! #CaribCement #\u2026 https://t.co/R5hWIkNKoo",
+            "truncated": true,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Fri Feb 14 02:30:47 +0000 2020",
+                "default_profile": true,
+                "default_profile_image": false,
+                "description": "Jamaica's largest manufacturing company committed to #BuildingAgreaterJamaica by producing world class quality cement using Jamaican raw material.",
+                "favourites_count": 526,
+                "follow_request_sent": null,
+                "followers_count": 120,
+                "following": null,
+                "friends_count": 80,
+                "geo_enabled": false,
+                "id": 1228144478046838785,
+                "id_str": "1228144478046838785",
+                "is_translator": false,
+                "lang": null,
+                "listed_count": 3,
+                "location": "Rockfort, Jamaica ",
+                "name": "CaribCementJa",
+                "notifications": null,
+                "profile_background_color": "F5F8FA",
+                "profile_background_image_url": "",
+                "profile_background_image_url_https": "",
+                "profile_background_tile": false,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/1228144478046838785/1585080859",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1228144767315345408/L6w5w_b4_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1228144767315345408/L6w5w_b4_normal.jpg",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "caribcementja",
+                "statuses_count": 261,
+                "time_zone": null,
+                "translator_type": "none",
+                "url": "http://www.caribcement.com/",
+                "utc_offset": null,
+                "verified": false
+            }
+        }
+    ]
+}
